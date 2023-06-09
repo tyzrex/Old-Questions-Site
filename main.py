@@ -8,35 +8,28 @@ def home():
     return render_template('./index.html')
 
 
-@app.route("/toc")
-def toc():
-    return render_template('./toc.html')
+@app.route('/<subject>')
+def get_page(subject):
+    return render_template('./' + subject + '.html')
 
 
-@app.route("/os")
-def os():
-    return render_template('./os.html')
-
-
-@app.route("/dbms")
-def dbms():
-    return render_template('./dbms.html')
-
-
-@app.route("/cn")
-def cn():
-    return render_template('./cn.html')
-
-
-@app.route('/ai')
-def ai():
-    return render_template('./ai.html')
+@app.route("/unitwise/<subject>")
+def unitwisedbms(subject):
+    return render_template('./unitwise/' + subject + '.html')
 
 
 @app.route('/questions/<subject>')
 def get_questions(subject):
     print(subject)
     with open('./json/' + subject + '.json') as file:
+        questions_data = json.load(file)
+    return jsonify(questions_data)
+
+
+@app.route('/unitwisequestions/<subject>')
+def get_unitwise_questions(subject):
+    print(subject)
+    with open('./json/unitwise/' + subject + '.json') as file:
         questions_data = json.load(file)
     return jsonify(questions_data)
 
