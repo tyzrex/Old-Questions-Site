@@ -22,28 +22,6 @@ const renderListItem = (paragraph) => {
   const listItem = document.createElement("li");
   listItem.classList.add("text-lg", "py-2", "text-gray-200", "font-medium");
 
-  listItem &&
-    listItem.classList.add(
-      "hover:bg-gray-800",
-      "transition",
-      "duration-200",
-      "px-4",
-      "rounded-md",
-      "cursor-pointer"
-    );
-  listItem &&
-    listItem.addEventListener("click", () => {
-      listItem.classList.toggle("line-through");
-      listItem.classList.toggle("bg-red-500");
-      listItem.classList.remove("hover:bg-gray-800");
-    });
-  listItem &&
-    listItem.addEventListener("dblclick", () => {
-      listItem.classList.toggle("line-through");
-      listItem.classList.toggle("bg-red-500");
-      listItem.classList.add("hover:bg-gray-800");
-    });
-
   if (paragraph.includes("\t")) {
     console.log("tab found");
     listItem.classList.add("ml-10");
