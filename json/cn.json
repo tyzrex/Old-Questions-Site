@@ -1,0 +1,253 @@
+{
+    "subject": "Computer Networks",
+    "questions": [
+        {
+            "year": "2067",
+            "paragraphs": [
+                "1.\u00a0\u00a0\u00a0\u00a0\u00a0 Explain the principles of\r\napplication layer protocols. What do you mean by file transfer?",
+                "OR",
+                "\n",
+                "What are the main relationship\r\nbetween transport layer and network layer? What are the transport layer uses in\r\ninternet?",
+                "2.\u00a0\u00a0\u00a0\u00a0\u00a0 Explain the congestion control\r\nprinciple and its approaches.",
+                "3.\u00a0\u00a0\u00a0\u00a0\u00a0 Explain the connection oriented and\r\nconnectionless service.",
+                "4.\u00a0\u00a0\u00a0\u00a0\u00a0 Explain the working principle of\r\nDNS.",
+                "5.\u00a0\u00a0\u00a0\u00a0\u00a0 What do you mean by pipelined\r\nreliable data transfer protocol?",
+                "6.\u00a0\u00a0\u00a0\u00a0\u00a0 What do you mean by hierarchical\r\nrouting?",
+                "7.\u00a0\u00a0\u00a0\u00a0\u00a0 Explain the multicasting routine\r\nand its applications.",
+                "8.\u00a0\u00a0\u00a0\u00a0\u00a0 Define data link layer and its\r\nservices.",
+                "9.\u00a0\u00a0\u00a0\u00a0\u00a0 Mention the types of multimedia\r\nnetworking applications.",
+                "10.\u00a0\u00a0\u00a0\u00a0\u00a0 What are the key components of\r\nnetwork management architecture?",
+                "11.\u00a0\u00a0\u00a0\u00a0\u00a0 Explain the Asynchronous transfer\r\nmode (ATM)."
+            ]
+        },
+        {
+            "year": "2068",
+            "paragraphs": [
+                "1.\u00a0\u00a0\u00a0\u00a0\u00a0 Explain the OSI reference model?",
+                "\n",
+                "OR",
+                "What do you mean by TCP? Explain\r\nthe TCP structure?",
+                "2.\u00a0\u00a0\u00a0\u00a0\u00a0 Define DNS. Explain the DNS records\r\nand DNS messages.",
+                "3.\u00a0\u00a0\u00a0\u00a0\u00a0 What do you mean by Internet\r\nProtocol Stack?",
+                "4. Differentiate between transport layer and network layer",
+                "5.\u00a0\u00a0Explain the principle of congestion\r\ncontrol.",
+                "6.\u00a0\u00a0\u00a0\u00a0\u00a0 What do you mean by IP datagram\r\nfragmentation?",
+                "7.\u00a0\u00a0\u00a0\u00a0\u00a0 Explain the point to point protocol\r\n(PPP).",
+                "8.\u00a0\u00a0\u00a0\u00a0\u00a0 What do you mean by multicasting\r\nrouting?",
+                "9.\u00a0\u00a0\u00a0\u00a0\u00a0 Explain the Internet Control\r\nMessage Protocol (ICMP).",
+                "10.\u00a0\u00a0\u00a0\u00a0\u00a0 What are the various types of\r\nmultimedia networking application?",
+                "11.\u00a0\u00a0\u00a0\u00a0\u00a0 What type of intra structure is\r\nneeded for network management?"
+            ]
+        },
+        {
+            "year": "2069",
+            "paragraphs": [
+                "1.\u00a0\u00a0\u00a0\u00a0\u00a0 What are the seven layers of OSI\r\nmodel? Comparison between these seven layers.",
+                "\r\n\r\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0OR",
+                "What do you mean by routing?\r\nDifferentiate between Non-adaptive algorithm and adaptive algorithm.",
+                "2.\u00a0\u00a0\u00a0\u00a0\u00a0 Explain the congestion control\r\nalgorithm with example.",
+                "3.\u00a0\u00a0\u00a0\u00a0\u00a0 What do you mean by Internet\r\nProtocol Stack?",
+                "4.\u00a0\u00a0\u00a0\u00a0\u00a0 Differentiate between DNS records\r\nand DNS messages.",
+                "5.\u00a0\u00a0\u00a0\u00a0\u00a0 Explain the pipelined reliable data\r\ntransfer protocol.",
+                "6.\u00a0\u00a0\u00a0\u00a0\u00a0 Explain network service model.",
+                "7.\u00a0\u00a0\u00a0\u00a0\u00a0 Explain IPV4 addressing.",
+                "8.\u00a0\u00a0\u00a0\u00a0\u00a0 What do you mean by network address\r\ntranslator?",
+                "9.\u00a0\u00a0\u00a0\u00a0\u00a0 Explain on ALOHA and slotted ALOHA\r\nprotocols.",
+                "10.\u00a0\u00a0\u00a0\u00a0\u00a0 What are the various applications\r\nof multimedia networking?",
+                "11.\u00a0\u00a0\u00a0\u00a0\u00a0 Explain the network management\r\narchitecture with suitable diagram."
+            ]
+        },
+        {
+            "year": "2070",
+            "paragraphs": [
+                "1.\u00a0\u00a0\u00a0\u00a0\u00a0 Explain the functioning of 7 layers\r\nof OST model. What is the necessity of using 7 layers concept in OST model?",
+                "\n",
+                "OR",
+                "Explain the various layers of TCP/IP. Also, list protocols used in each\r\nlayer",
+                "2.\u00a0\u00a0\u00a0\u00a0\u00a0 Explain how does CRC detect the\r\nerrors with multiple bits? Given message is M(x)=x7+x4+x3+x2+1\r\nand the generator is G(x)=x3+1. Show the actual bit string\r\ntransmitted, suppose the third bit from the left is inverted during the\r\ntransmission.\u00a0 Show how the error is\r\ndetected at the receiver\u2019s end.",
+                "3.\u00a0\u00a0\u00a0\u00a0\u00a0 What are sliding window protocol?\r\nExplain one-bit sliding window protocol with an appropriate diagram.",
+                "4.\u00a0\u00a0\u00a0\u00a0\u00a0 Explain how slatted Aloha improves\r\nthe performance of system over pure Aloha.",
+                "5.\u00a0\u00a0\u00a0\u00a0\u00a0 Describe multimedia networking and\r\nits various applications.",
+                "6.\u00a0\u00a0\u00a0\u00a0\u00a0 Why routing is important in a\r\ncomputer network? Differentiate between adaptive and non-adaptive routing\r\nalgorithms.",
+                "7.\u00a0\u00a0\u00a0\u00a0\u00a0 Differentiate between broadband and\r\nbase band services.",
+                "8.\u00a0\u00a0\u00a0\u00a0\u00a0 How does ATM differ from frame\r\nrelay? List and briefly define the ATM service classes.",
+                "9.\u00a0\u00a0\u00a0\u00a0\u00a0 Compare and contrast the IPv4 and\r\nIPv6 header files. Do they have any fields common?",
+                "10.\u00a0\u00a0\u00a0\u00a0\u00a0 Define multiplexing. Discuss the\r\nneed for multiplexing in network system.",
+                "11.\u00a0\u00a0\u00a0\u00a0\u00a0 What is meant by \u201cdomain name\u201d? How\r\nis a domain name translated to an equivalent IP address? Explain with the help\r\nof an example."
+            ]
+        },
+        {
+            "year": "2071",
+            "paragraphs": [
+                "1.\u00a0\u00a0\u00a0\u00a0\u00a0 Define protocol. Why do we need\r\nlayered protocol architecture? Discuss each layer of TCP/IP protocol\r\narchitecture in detail.",
+                "OR",
+                "\nDefine transmission media.\r\nDifferentiate between guided and unguided transmission\u00a0media. Discuss each guided\r\ntransmission media in detail.",
+                "",
+                "2.\u00a0\u00a0\u00a0\u00a0\u00a0 What is routing? Discuss link state\r\nrouting algorithm in detail.",
+                "3.\u00a0\u00a0\u00a0\u00a0\u00a0 Explain client server system. How\r\nis it different from peer to peer system?",
+                "4.\u00a0\u00a0\u00a0\u00a0\u00a0 Discuss HTTP in detail.",
+                "5.\u00a0\u00a0\u00a0\u00a0\u00a0 Discuss the importance of\r\nmultiplexing in data communication.",
+                "6.\u00a0\u00a0\u00a0\u00a0\u00a0 Assume a class B network and divide\r\nit into four subnets. What is the value of new subnet mask?",
+                "7.\u00a0\u00a0\u00a0\u00a0\u00a0 Discuss CRC as an error detection\r\nmechanism.",
+                "8.\u00a0\u00a0\u00a0\u00a0\u00a0 Explain the importance of\r\nmultimedia network.",
+                "9.\u00a0\u00a0\u00a0\u00a0\u00a0 Why is network management an\r\nimportant task?",
+                "10.\u00a0\u00a0\u00a0\u00a0\u00a0 What is congestion control? Why do\r\nwe need it?",
+                "11.\u00a0\u00a0\u00a0\u00a0\u00a0 Write short note on:",
+                "\ta.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 DNS",
+                "\n",
+                "",
+                "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0b.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Streaming audio and video"
+            ]
+        },
+        {
+            "year": "2072",
+            "paragraphs": [
+                "1.\u00a0\u00a0\u00a0\u00a0\u00a0 Discuss the relationship between\r\ntransport layer and network layer. Discuss TCP as a transport layer protocol\r\nalong with its segment structure.",
+                "OR",
+                "\n",
+                "What is transmission media? Discuss\r\neach transmission media in detail.",
+                "2.\u00a0\u00a0\u00a0\u00a0\u00a0 Why do we need routing algorithm?\r\nDiscuss distance vector routing algorithm in detail.",
+                "3.\u00a0\u00a0\u00a0\u00a0\u00a0 What is connection oriented\r\nservice? Differentiate it with connectionless service.",
+                "4.\u00a0\u00a0\u00a0\u00a0\u00a0 Discuss the working principle of\r\nDNS.",
+                "5.\u00a0\u00a0\u00a0\u00a0\u00a0 Why do we need multiplexing in data\r\ncommunication? Discuss.",
+                "6.\u00a0\u00a0\u00a0\u00a0\u00a0 What is subnetting? Assume a class\r\nC network and divide it into four subnets. What is the value of new subnet\r\nmask?",
+                "7.\u00a0\u00a0\u00a0\u00a0\u00a0 How does the system correct error\r\nafter error detection?",
+                "8.\u00a0\u00a0\u00a0\u00a0\u00a0 Discuss multimedia networking\r\napplication.",
+                "9.\u00a0\u00a0\u00a0\u00a0\u00a0 Why is network management a\r\nchallenging task?",
+                "10.\u00a0\u00a0\u00a0\u00a0\u00a0 Discuss the importance of congestion\r\ncontrol in data communication.",
+                "11.\u00a0\u00a0\u00a0\u00a0\u00a0 Write short notes on:",
+                "\ta.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 HTTP",
+                "\n",
+                "\tb.\u00a0\u00a0\u00a0\u00a0\u00a0 Backbone"
+            ]
+        },
+        {
+            "year": "2073",
+            "paragraphs": [
+                "1.\u00a0\u00a0\u00a0\u00a0\u00a0 Explain\r\nthe seven layers of OSI model and compare between them.",
+                "OR",
+                "What do you mean by link state routing algorithm?\r\nDifferentiate between IPv4 and IPv6.",
+                "\n",
+                "\u00a0",
+                "2.\u00a0\u00a0\u00a0\u00a0\u00a0 Explain\r\nthe purpose of subnetting and also explain the subnet mask.",
+                "3.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nExplain the responsibilities of data link layer in\r\nthe internet model.",
+                "4.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nWhat do you mean by TCP push operation?",
+                "5.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nExplain the Internet Control Message Protocol\r\n(ICMP)?",
+                "6.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nExplain the point to point to protocol (PPP) with\r\nexample.",
+                "7.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nWrite down the technique used in the 802.12 protocol\r\nfor wireless networks?",
+                "8.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nDifferentiate between ALOHA and slotted ALOHA\r\nprotocols.",
+                "9.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nDiscuss the idea used in public key encryption\r\nsystem.",
+                "10.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nWhat are the applications of multimedia networking?",
+                "11.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nMention the intra structure for network management."
+            ]
+        },
+        {
+            "year": "2074",
+            "paragraphs": [
+                "\u00a0",
+                "\n",
+                "1.\u00a0\u00a0\u00a0\u00a0\u00a0 What is\r\nprotocol? Why do we need layered protocol architecture? Explain each layer of\r\nOSI protocol architecture in detail.",
+                "OR",
+                "\n",
+                "How does transport layer support flow control?\r\nDiscuss TCP as a transport layer protocol along with its segment structure.",
+                "2.\u00a0\u00a0\u00a0\u00a0\u00a0 Discuss\r\nthe importance of routing algorithm. Discuss distance vector routing algorithm.\r\nCompare it with link state routing.",
+                "\n",
+                "\u00a0",
+                "3.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nExplain connectionless service. How is it different\r\nfrom connection oriented service?",
+                "4.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nHow does multiplexing increases transmission\r\nefficiency? Explain.",
+                "5.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nWhat is FTP? Differentiate it with HTTP.",
+                "6.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nAssume a class C network and divide it into eight\r\nsubnets. What is the value of new subnet mask?",
+                "7.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nDifferentiate between ATM and frame relay.",
+                "8.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nDiscuss about streaming audio and video.",
+                "9.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nDiscuss the infrastructure for network management.",
+                "10.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nWhat is multicast routing? Discuss.",
+                "11.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nWrite short notes on:",
+                "\n",
+                "\ta.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\r\nDNS",
+                "\u00a0b.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\r\nIPv6"
+            ]
+        },
+        {
+            "year": "2075",
+            "paragraphs": [
+                "1.\u00a0\u00a0\u00a0\u00a0\u00a0 Define\r\ntransmission media. Discuss different guided and unguided transmission in\r\ndetail.",
+                "OR",
+                "\n",
+                "Define\r\nrouting. Discuss distance-vector routing algorithm with example.",
+                "2.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nDiscuss error detection and correction scenario.\r\nExplain cyclic redundancy check (CRC) error detection technique with example.",
+                "3.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nWhat is packet switching? Discuss store-and-forward\r\ntransmission of packet switching.",
+                "4.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nWhy do we need DNS? Discuss different fields in the\r\nDNS message.",
+                "5.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nWhat is connectionless transport? Differentiate TCP\r\nwith UDP.",
+                "6.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nHow can we use token-bucket algorithm to control\r\ncongestion? Discuss.",
+                "7.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nWhat is IP? Discuss different classes of IPv4\r\naddress.",
+                "8.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nWhat is virtual circuit network? How is it different\r\nfrom datagram network?",
+                "9.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nDiscuss channel partitioning protocol. What is TDMA?",
+                "10. What are the applications of multimedia\r\nnetworking? Discuss audio streaming",
+                "11.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nWrite short notes on:",
+                "\ta.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\r\nIPv6",
+                "\n",
+                "\tb.\u00a0\u00a0\u00a0\u00a0\u00a0\r\nNetwork management"
+            ]
+        },
+        {
+            "year": "2076%20(new)",
+            "paragraphs": [
+                "1.\u00a0 Explain each layer of TCP/IP model in detail. Compare it with OSI model.",
+                "2.\u00a0 Define transmission media. What are different types of transmission media. Explain different types of unguided media in detail.",
+                "3.\u00a0 Define flow control. Explain Go-Back-N ARQ with suitable example. How is it different from Stop-and-Wait ARQ?",
+                "4.\u00a0 Define network topology. Explain ring topology along with its merits and demerits.",
+                "5.\u00a0 Explain LAN with example. How is it different from PAN?",
+                "6.\u00a0 Define routing table. Differentiate static routing table with dynamic routing table.",
+                "7.\u00a0 What is switching? Compare and contrast a circuit-switched network and packet-switched network.",
+                "8.\u00a0 Why do we need wireless LAN? Explain the architecture of IEEE 802.11 in detail.",
+                "9.\u00a0 What is NAT? How does it work? What are its benefits?",
+                "10.\u00a0 In a block of address, we know the IP Address of one host is 192.34.12.56/28. What are the first address(network address)\u00a0 and the last address (limited broadcast address) in this block?",
+                "11.\u00a0 Why do we need a DNS system when we can directly use an IP address? what is domain name space?",
+                "12. Write short notes on (any two):",
+                "\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 a. Connection-oriented service",
+                "\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 b. Bridge",
+                "\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 c. Hamming distance"
+            ]
+        },
+        {
+            "year": "2076%20(old)",
+            "paragraphs": [
+                "1. Why do we need layered protocol architecture? Discuss each layer of TCP/IP architecture along with function of each layer. Compare TCP/IP with OSI model.",
+                "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0OR",
+                "Assume a class B network. Divide this network in 16 different sub-networks. What is new subnet mask?",
+                "2. Define multiplexing. What are the benefits of using multiplexing? Discuss Go-Back-N and Selective Repeat protocol in detail.",
+                "3. What is circuit-switching? How it is different from packet switching?",
+                "4. Discuss different services provided by DNS.",
+                "5. What are the causes of congestion? Discuss leaky bucket algorithm.",
+                "6. Discuss different fields of UDP. How is it different from TCP?",
+                "7. What is static routing? How is it different from dynamic routing?",
+                "8. What is random access protocol? Discuss ALOHA in detail.",
+                "9. Discuss HTTP video streaming in detail.",
+                "10. What is network management ? Discuss different areas of network management.",
+                "11. Write short notes on:",
+                "\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 a. Multicasting routing",
+                "\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 b. Point-to-point protocol"
+            ]
+        },
+        {
+            "year": "2078",
+            "paragraphs": [
+                "1. What is transmission media? How do guided media differ from unguided media? Explain different types of guided media in detail.(1+2+7)",
+                "2. What is flow control? Explain Stop-and-Wait ARQ with suitable example. How is it different from Go-Back-N ARQ? (2+5+3)",
+                "3. Explain link state routing with example.(10)",
+                "4. Explain client/ server network. How is it different from peer to peer network? (3+2)",
+                "5. What is CSMA / CD ? Why is there no need for CSMA/CD on a full-duplex Ethernet LAN?(2.5+2.5)",
+                "6. Write subnet ID and broadcast address of each subnet if you divide a class B network 150.10.0.0-150.10.255.255) in 4 different subnets. What is the new subnet mask?",
+                "7. Explain the structure of IPv6 address. Compare IPv6 address with IPv4 address.(3+2)",
+                "8. What is virtual circuit network? Explain ATM as a virtual circuit wide area network.(2+3)",
+                "9. What is routing table? Differentiate static routing table with dynamic routine table.(2+3)",
+                "10. What is open-loop congestion control? Compare it with closed-loop congestion control.(2+3)",
+                "11. What are the different approaches for multimedia streaming? Explain.(5)",
+                "12. Write short note on(any two)(2*2.5)",
+                "\ta. Blackbone network",
+                "\tb. ISDN",
+                "\tc. ALOHA"
+            ]
+        }
+    ]
+}
