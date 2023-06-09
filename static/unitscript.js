@@ -56,6 +56,31 @@ const renderQuestionsList = (questions, askedList) => {
 
   questions.forEach((question, index) => {
     const listItem = renderListItem(question, askedList[index]);
+    listItem &&
+      listItem.classList.add(
+        "border-b",
+        "border-gray-700",
+        "hover:bg-gray-800",
+        "transition",
+        "duration-200",
+        "px-4",
+        "rounded-md",
+        "cursor-pointer",
+        "my-2"
+      );
+    listItem &&
+      listItem.addEventListener("click", () => {
+        listItem.classList.toggle("line-through");
+        listItem.classList.toggle("bg-red-500");
+        listItem.classList.remove("hover:bg-gray-800");
+      });
+    listItem &&
+      listItem.addEventListener("dblclick", () => {
+        listItem.classList.toggle("line-through");
+        listItem.classList.toggle("bg-red-500");
+        listItem.classList.add("hover:bg-gray-800");
+      });
+
     questionsList.appendChild(listItem);
   });
 
@@ -72,6 +97,11 @@ const renderQuestionsContainer = (data) => {
   data.questions.forEach((chapterData, index) => {
     const chapterHeading = renderChapterHeading(chapterData.Chapter.trim());
     questionsContainer.appendChild(chapterHeading);
+
+    const numberOfQuestions = document.createElement("p");
+    numberOfQuestions.classList.add("text-xl", "font-bold", "py-2");
+    numberOfQuestions.textContent = `Number of questions: ${data.questions[index].Question.length}`;
+    questionsContainer.appendChild(numberOfQuestions);
 
     const questionsList = renderQuestionsList(
       chapterData.Question,
