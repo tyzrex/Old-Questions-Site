@@ -1,45 +1,51 @@
 from flask import Flask, render_template, jsonify
 import json
+
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route("/")
 def home():
-    return render_template('./index.html')
+    return render_template("index.html")
 
 
-@app.route('/<subject>')
+@app.route("/<subject>")
 def get_page(subject):
-    return render_template('./' + subject + '.html')
+    return render_template(f"{subject}.html")
 
 
 @app.route("/unitwise/<subject>")
 def unitwisedbms(subject):
-    return render_template('./unitwise/' + subject + '.html')
+    return render_template(f"unitwise/{subject}.html")
 
 
-@app.route('/questions/<subject>')
+@app.route("/questions/<subject>")
 def get_questions(subject):
     print(subject)
-    with open('./json/' + subject + '.json') as file:
+    with open(f"json/{subject}.json") as file:
         questions_data = json.load(file)
     return jsonify(questions_data)
 
 
-@app.route('/unitwisequestions/<subject>')
+@app.route("/unitwisequestions/<subject>")
 def get_unitwise_questions(subject):
     print(subject)
-    with open('./json/unitwise/' + subject + '.json') as file:
+    with open(f"json/unitwise/{subject}.json") as file:
         questions_data = json.load(file)
     return jsonify(questions_data)
 
 
-@app.route("/scrape", methods=['GET'])
+@app.route("/scrape", methods=["GET"])
 def scrape():
     # scraper = WebScraper()
     # scraper.scrape_options()
     return "Scraping done!"
 
 
-if __name__ == '__main__':
+@app.route("/favicon.ico")
+def favicon():
+    return app.send_static_file("favicon.ico")
+
+
+if __name__ == "__main__":
     app.run()
