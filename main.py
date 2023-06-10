@@ -16,7 +16,7 @@ def get_page(subject):
 
 @app.route("/unitwise/<subject>")
 def unitwise(subject):
-    return render_template(f"unitwise/unitwise.html")
+    return render_template(f"unitwise.html")
 
 
 @app.route("/questions/<subject>")
