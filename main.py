@@ -10,13 +10,13 @@ def home():
 
 
 @app.route("/<subject>")
-def get_page(subject):
-    return render_template(f"{subject}.html")
+def get_page():
+    return render_template(f"yearwise.html")
 
 
 @app.route("/unitwise/<subject>")
-def unitwisedbms(subject):
-    return render_template(f"unitwise/{subject}.html")
+def unitwise():
+    return render_template(f"unitwise/unitwise.html")
 
 
 @app.route("/questions/<subject>")
