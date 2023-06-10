@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "old_questions_site"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 click = "^8.1.3"
 flask = "^2.3.2"
 
