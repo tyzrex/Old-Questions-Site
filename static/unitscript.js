@@ -49,13 +49,13 @@ const renderListItem = (question, asked) => {
   //copy button
   const copyButton = document.createElement("button");
   copyButton.classList.add(
-    "bg-gray-800",
+    "bg-gray-700",
     "text-gray-200",
     "rounded-md",
     "px-2",
     "py-1",
     "ml-2",
-    "hover:bg-gray-700",
+    "hover:bg-gray-900",
     "focus:outline-none",
     "focus:ring-2",
     "focus:ring-gray-400",
@@ -67,7 +67,40 @@ const renderListItem = (question, asked) => {
     navigator.clipboard.writeText(paragraph);
   });
 
+  const markButton = document.createElement("button");
+  markButton.classList.add(
+    "bg-gray-700",
+    "text-gray-200",
+    "rounded-md",
+    "px-2",
+    "py-1",
+    "ml-2",
+    "hover:bg-gray-900",
+    "focus:outline-none",
+    "focus:ring-2",
+    "focus:ring-gray-400",
+    "focus:ring-opacity-50"
+  );
+
+  markButton.textContent = "Save to confusions";
+  markButton.addEventListener("click", () => {
+    const data = {
+      question: questionText,
+      asked: askedLine.textContent,
+      subject: filename,
+    };
+
+    let localStorageData = localStorage.getItem("confusions");
+
+    localStorageData = localStorageData ? JSON.parse(localStorageData) : [];
+
+    localStorageData.push(data);
+
+    localStorage.setItem("confusions", JSON.stringify(localStorageData));
+  });
+
   listItem.appendChild(copyButton);
+  listItem.appendChild(markButton);
 
   return listItem;
 };

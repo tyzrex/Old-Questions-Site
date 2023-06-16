@@ -34,6 +34,9 @@ def get_unitwise_questions(subject):
         questions_data = json.load(file)
     return jsonify(questions_data)
 
+@app.route("/marked/questions")
+def confusedask():
+    return render_template("confusion.html")
 
 @app.route("/scrape", methods=["GET"])
 def scrape():
