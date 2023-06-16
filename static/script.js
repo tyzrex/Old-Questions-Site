@@ -31,6 +31,30 @@ const renderListItem = (paragraph) => {
   if (paragraph.length === 0) return null;
 
   listItem.textContent = paragraph;
+
+  //copy button
+  const copyButton = document.createElement("button");
+  copyButton.classList.add(
+    "bg-gray-800",
+    "text-gray-200",
+    "rounded-md",
+    "px-2",
+    "py-1",
+    "ml-2",
+    "hover:bg-gray-700",
+    "focus:outline-none",
+    "focus:ring-2",
+    "focus:ring-gray-400",
+    "focus:ring-opacity-50"
+  );
+
+  copyButton.textContent = "Copy";
+  copyButton.addEventListener("click", () => {
+    navigator.clipboard.writeText(paragraph);
+  });
+
+  listItem.appendChild(copyButton);
+
   return listItem;
 };
 
