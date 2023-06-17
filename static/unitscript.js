@@ -152,6 +152,12 @@ const createQuestionsList = (questions, askedList) => {
         "my-2"
       );
 
+      listItem.onclick = () => {
+        listItem.classList.toggle("bg-yellow-500");
+        listItem.classList.toggle("text-gray-900");
+        listItem.classList.remove("hover:bg-gray-800");
+      };
+
       completeButton.addEventListener("click", () => {
         listItem.classList.toggle("line-through");
         listItem.classList.toggle("bg-green-500");
