@@ -64,7 +64,7 @@ const renderListItem = (question, asked) => {
 
   copyButton.textContent = "Copy";
   copyButton.addEventListener("click", () => {
-    navigator.clipboard.writeText(paragraph);
+    navigator.clipboard.writeText(questionText);
   });
 
   const markButton = document.createElement("button");
@@ -110,8 +110,68 @@ const renderQuestionsList = (questions, askedList) => {
   const questionsList = document.createElement("ul");
   questionsList.classList.add("p-4", "bg-gray-900", "rounded-md");
 
+  const localStorageData = localStorage.getItem("completed");
+
   questions.forEach((question, index) => {
     const listItem = renderListItem(question, askedList[index]);
+    const completeButton = document.createElement("button");
+    completeButton.classList.add(
+      "bg-gray-700",
+      "text-gray-200",
+      "rounded-md",
+      "px-2",
+      "py-1",
+      "ml-2",
+      "hover:bg-gray-900",
+      "focus:outline-none",
+      "focus:ring-2",
+      "focus:ring-gray-400",
+      "focus:ring-opacity-50"
+    );
+
+    completeButton.textContent = "Complete";
+
+    completeButton.addEventListener("click", () => {
+      const data = {
+        question: question,
+        asked: askedList[index],
+        subject: filename,
+      };
+
+      let localStorageData = localStorage.getItem("completed");
+      let exists = false;
+
+      if (localStorageData) {
+        const parsedData = JSON.parse(localStorageData);
+        parsedData.forEach((data) => {
+          if (data.question === question) {
+            parsedData.splice(parsedData.indexOf(data), 1);
+            console.log(parsedData);
+            localStorage.setItem("completed", JSON.stringify(parsedData));
+            exists = true;
+          }
+        });
+      }
+      if (exists === false) {
+        localStorageData = localStorageData ? JSON.parse(localStorageData) : [];
+
+        localStorageData.push(data);
+
+        localStorage.setItem("completed", JSON.stringify(localStorageData));
+      }
+    });
+
+    if (localStorageData) {
+      const parsedData = JSON.parse(localStorageData);
+      parsedData.forEach((data) => {
+        if (data.question === question && data.asked === askedList[index]) {
+          listItem.classList.add("line-through");
+          listItem.classList.add("bg-green-500");
+          listItem.classList.remove("hover:bg-gray-800");
+        }
+      });
+    }
+
     listItem &&
       listItem.classList.add(
         "border-b",
@@ -125,17 +185,19 @@ const renderQuestionsList = (questions, askedList) => {
         "my-2"
       );
     listItem &&
-      listItem.addEventListener("click", () => {
+      completeButton.addEventListener("click", () => {
         listItem.classList.toggle("line-through");
-        listItem.classList.toggle("bg-red-500");
+        listItem.classList.toggle("bg-green-500");
         listItem.classList.remove("hover:bg-gray-800");
       });
     listItem &&
-      listItem.addEventListener("dblclick", () => {
+      completeButton.addEventListener("dblclick", () => {
         listItem.classList.toggle("line-through");
-        listItem.classList.toggle("bg-red-500");
+        listItem.classList.toggle("bg-green-500");
         listItem.classList.add("hover:bg-gray-800");
       });
+
+    listItem && listItem.appendChild(completeButton);
 
     questionsList.appendChild(listItem);
   });
