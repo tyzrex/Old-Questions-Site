@@ -161,6 +161,7 @@ const createQuestionsList = (questions, askedList) => {
       completeButton.addEventListener("click", () => {
         listItem.classList.toggle("line-through");
         listItem.classList.toggle("bg-green-500");
+        listItem.classList.remove("bg-yellow-500");
         listItem.classList.remove("hover:bg-gray-800");
       });
       listItem.appendChild(completeButton);
