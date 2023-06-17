@@ -36,6 +36,8 @@ const createListItem = (question, asked) => {
   const questionText = question.trim();
   listItem.appendChild(document.createTextNode(questionText));
 
+  const lineBreak = document.createElement("br");
+  listItem.appendChild(lineBreak);
   // Copy button
   const copyButton = createButton(
     "Copy",
@@ -152,18 +154,35 @@ const createQuestionsList = (questions, askedList) => {
         "my-2"
       );
 
-      listItem.onclick = () => {
-        listItem.classList.toggle("bg-yellow-500");
-        listItem.classList.toggle("text-gray-900");
-        listItem.classList.remove("hover:bg-gray-800");
-      };
-
       completeButton.addEventListener("click", () => {
         listItem.classList.toggle("line-through");
         listItem.classList.toggle("bg-green-500");
         listItem.classList.remove("bg-yellow-500");
         listItem.classList.remove("hover:bg-gray-800");
       });
+      const ongoingbutton = document.createElement("button");
+      ongoingbutton.textContent = "Ongoing";
+      ongoingbutton.classList.add(
+        "bg-gray-700",
+        "text-gray-200",
+        "rounded-md",
+        "px-2",
+        "py-1",
+        "ml-2",
+
+        "hover:bg-gray-900",
+        "focus:outline-none",
+        "focus:ring-2",
+        "focus:ring-gray-400",
+        "focus:ring-opacity-50"
+      );
+      ongoingbutton.addEventListener("click", () => {
+        listItem.classList.toggle("bg-yellow-500");
+        listItem.classList.remove("bg-green-500");
+        listItem.classList.remove("hover:bg-gray-800");
+      });
+
+      listItem.appendChild(ongoingbutton);
       listItem.appendChild(completeButton);
       questionsList.appendChild(listItem);
     }
