@@ -14,11 +14,13 @@ Before running the application, ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/tyzrex/flask 
+   git clone https://github.com/tyzrex/Old-Questions-Site
    ```
 2. `cd flask`
 3. `python main.py`
 4. `flask run`
+5. You can also run the standalone program to just scrape the site and get the json format
+6. For that you can run the command `python unitscrape.py` this yields a file in json format with the subject name where you can find all the question details about the selected subject
 
 ## Usage
 
