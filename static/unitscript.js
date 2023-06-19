@@ -251,53 +251,91 @@ const markAsConfusion = (key, listItem, data) => {
 
 //random question suggestion for practice
 
-const randomQuestion = () => {
-  const questions = document.querySelectorAll("li");
-
-  const randomQuestion =
-    questions[Math.floor(Math.random() * questions.length)];
-
-  const copyofRandomQuestion = randomQuestion.cloneNode(true);
-  if (randomQuestionContainer) {
-    randomQuestionContainer.innerHTML = "";
-    randomQuestionContainer.appendChild(copyofRandomQuestion);
-  }
-  copyofRandomQuestion.classList.add("bg-purple-500", "text-white", "w-full");
-  copyofRandomQuestion.classList.remove(
-    "transition-all",
-    "duration-200",
-    "ease-in-out"
-  );
+const clearAllMarkings = () => {
+  localStorage.clear();
+  window.location.reload();
 };
 
-const randomQuestionButton = document.createElement("button");
-const heading = document.createElement("h1");
-heading.textContent = "Get a Random Question to Solve";
+const getRandomElement = (array) => {
+  return array[Math.floor(Math.random() * array.length)];
+};
 
-randomQuestionButton.textContent = "Get Random Question";
-randomQuestionButton.className = `bg-gray-800 text-gray-200 rounded-md px-2 py-2 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50`;
-randomQuestionButton.style.marginTop = "1rem";
-randomQuestionButton.style.marginBottom = "1rem";
-const randomQuestionContainer = document.createElement("div");
-randomQuestionContainer.className = "flex justify-center";
+const getConfusionQuestions = () => {
+  const questions = Array.from(document.querySelectorAll("li"));
+  const confusionQuestions = questions.filter((question) =>
+    question.classList.contains("bg-red-700")
+  );
+
+  if (confusionQuestions.length > 0) {
+    const randomQuestion = getRandomElement(confusionQuestions);
+    const copyOfRandomQuestion = randomQuestion.cloneNode(true);
+
+    if (confusionsContainer) {
+      confusionsContainer.innerHTML = "";
+      confusionsContainer.appendChild(copyOfRandomQuestion);
+    }
+
+    copyOfRandomQuestion.classList.add("text-white", "w-full");
+  }
+};
+
+const getRandomQuestion = () => {
+  const questions = Array.from(document.querySelectorAll("li"));
+  const randomQuestion = getRandomElement(questions);
+  const copyOfRandomQuestion = randomQuestion.cloneNode(true);
+
+  if (randomQuestionContainer) {
+    randomQuestionContainer.innerHTML = "";
+    randomQuestionContainer.appendChild(copyOfRandomQuestion);
+  }
+
+  copyOfRandomQuestion.classList.add("bg-purple-500", "text-white", "w-full");
+};
 
 const questionsContainer = document.getElementById("questions-container");
-questionsContainer.appendChild(randomQuestionContainer);
+
+const heading = document.createElement("h1");
+heading.textContent = "Get a Random Question to Solve";
 heading.className = "text-2xl font-bold text-left w-full";
 questionsContainer.appendChild(heading);
-const clear = createButton(
+
+const clearButton = createButton(
   "Clear All Markings",
   "bg-red-700 text-gray-200 rounded-md mr-5 px-2 py-2 hover:bg-red-900 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50"
 );
-clear.addEventListener("click", () => {
-  localStorage.clear();
-  window.location.reload();
-});
-questionsContainer.appendChild(clear);
+clearButton.addEventListener("click", clearAllMarkings);
+questionsContainer.appendChild(clearButton);
 
+const confusionsButton = createButton(
+  "Get Confusions",
+  "bg-gray-800 text-gray-200 rounded-md px-2 py-2 mr-2 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50"
+);
+confusionsButton.style.marginTop = "1rem";
+questionsContainer.appendChild(confusionsButton);
+
+const randomQuestionButton = createButton(
+  "Get Random Question",
+  "bg-gray-800 text-gray-200 rounded-md px-2 py-2 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50"
+);
+randomQuestionButton.style.marginTop = "1rem";
+randomQuestionButton.style.marginBottom = "1rem";
 questionsContainer.appendChild(randomQuestionButton);
 
-randomQuestionButton.addEventListener("click", randomQuestion);
+const randomQuestionContainer = document.createElement("div");
+randomQuestionContainer.className = "flex justify-center";
+questionsContainer.appendChild(randomQuestionContainer);
+
+const confusionsContainer = document.createElement("div");
+confusionsContainer.className = "flex flex-col gap-2";
+questionsContainer.appendChild(confusionsContainer);
+
+questionsContainer.addEventListener("click", (event) => {
+  if (event.target === randomQuestionButton) {
+    getRandomQuestion();
+  } else if (event.target === confusionsButton) {
+    getConfusionQuestions();
+  }
+});
 
 const fetchQuestions = async () => {
   try {
