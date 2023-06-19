@@ -249,6 +249,56 @@ const markAsConfusion = (key, listItem, data) => {
   }
 };
 
+//random question suggestion for practice
+
+const randomQuestion = () => {
+  const questions = document.querySelectorAll("li");
+
+  const randomQuestion =
+    questions[Math.floor(Math.random() * questions.length)];
+
+  const copyofRandomQuestion = randomQuestion.cloneNode(true);
+  if (randomQuestionContainer) {
+    randomQuestionContainer.innerHTML = "";
+    randomQuestionContainer.appendChild(copyofRandomQuestion);
+  }
+  copyofRandomQuestion.classList.add("bg-purple-500", "text-white", "w-full");
+  copyofRandomQuestion.classList.remove(
+    "transition-all",
+    "duration-200",
+    "ease-in-out"
+  );
+};
+
+const randomQuestionButton = document.createElement("button");
+const heading = document.createElement("h1");
+heading.textContent = "Get a Random Question to Solve";
+
+randomQuestionButton.textContent = "Get Random Question";
+randomQuestionButton.className = `bg-gray-800 text-gray-200 rounded-md px-2 py-2 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50`;
+randomQuestionButton.style.marginTop = "1rem";
+randomQuestionButton.style.marginBottom = "1rem";
+const randomQuestionContainer = document.createElement("div");
+randomQuestionContainer.className = "flex justify-center";
+
+const questionsContainer = document.getElementById("questions-container");
+questionsContainer.appendChild(randomQuestionContainer);
+heading.className = "text-2xl font-bold text-left w-full";
+questionsContainer.appendChild(heading);
+const clear = createButton(
+  "Clear All Markings",
+  "bg-red-700 text-gray-200 rounded-md mr-5 px-2 py-2 hover:bg-red-900 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50"
+);
+clear.addEventListener("click", () => {
+  localStorage.clear();
+  window.location.reload();
+});
+questionsContainer.appendChild(clear);
+
+questionsContainer.appendChild(randomQuestionButton);
+
+randomQuestionButton.addEventListener("click", randomQuestion);
+
 const fetchQuestions = async () => {
   try {
     const response = await fetch(`/unitwisequestions/${filename}`);
