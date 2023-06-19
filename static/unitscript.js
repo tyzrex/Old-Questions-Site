@@ -165,7 +165,7 @@ const createQuestionsList = (questions, askedList) => {
 
 const renderQuestionsContainer = (data) => {
   const questionsContainer = document.getElementById("questions-container");
-
+  let totalQuestions = 0;
   data.questions.forEach((chapterData) => {
     const chapterHeading = createChapterHeading(chapterData.Chapter.trim());
     questionsContainer.appendChild(chapterHeading);
@@ -173,6 +173,8 @@ const renderQuestionsContainer = (data) => {
     const numberOfQuestions = document.createElement("p");
     numberOfQuestions.className = "text-xl font-bold py-2";
     numberOfQuestions.textContent = `Number of questions: ${chapterData.Question.length}`;
+    totalQuestions += chapterData.Question.length;
+    updateStatCounter(totalQuestions);
     questionsContainer.appendChild(numberOfQuestions);
 
     const questionsList = createQuestionsList(
@@ -203,6 +205,7 @@ const getItemFromLocalStorage = (key) => {
 
 const setItemInLocalStorage = (key, data) => {
   localStorage.setItem(key, JSON.stringify(data));
+  updateStatCounter();
 };
 
 const removeFromLocalStorage = (key, dataToRemove) => {
@@ -243,7 +246,6 @@ const markAsConfusion = (key, listItem, data) => {
     listItem.classList.remove("bg-red-700");
   } else {
     localStorageData.push(data);
-
     setItemInLocalStorage(key, localStorageData);
     listItem.classList.add("bg-red-700");
   }
@@ -337,10 +339,40 @@ questionsContainer.addEventListener("click", (event) => {
   }
 });
 
+// Function to get the count of completed questions
+const getCompletedQuestionsCount = () => {
+  const completedQuestions = getItemFromLocalStorage("completed");
+  return completedQuestions.length;
+};
+
+// Function to get the count of confused questions
+const getConfusedQuestionsCount = () => {
+  const confusedQuestions = getItemFromLocalStorage("confusions");
+  return confusedQuestions.length;
+};
+
+// Function to update the stat counter
+const updateStatCounter = (totalQuestions) => {
+  const ongoingCount = document.getElementById("ongoing-count");
+  const completedCount = document.getElementById("completed-count");
+  const confusionCount = document.getElementById("confusion-count");
+  // Get the count of completed and confused questions
+  const completedCountValue = getCompletedQuestionsCount();
+  const confusionCountValue = getConfusedQuestionsCount();
+
+  ongoingCount.textContent = totalQuestions;
+  completedCount.textContent = completedCountValue;
+  confusionCount.textContent = confusionCountValue;
+};
+
+// Update the stat counter initially
+updateStatCounter();
+
 const fetchQuestions = async () => {
   try {
     const response = await fetch(`/unitwisequestions/${filename}`);
     const data = await response.json();
+
     renderQuestionsContainer(data);
   } catch (error) {
     console.log("Error fetching questions:", error);

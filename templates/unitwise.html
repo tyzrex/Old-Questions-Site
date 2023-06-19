@@ -26,6 +26,24 @@
       </form>
     </div>
 
+    <div class="bg-gray-900 text-white p-4 rounded-md">
+      <h3 class="text-2xl font-semibold mb-5">Stat Counter</h3>
+      <div class="flex justify-between">
+        <div class="text-center text-yellow-500">
+          <h4 class="text-md">Remaining Questions</h4>
+          <span id="ongoing-count" class="counter text-2xl font-bold"></span>
+        </div>
+        <div class="text-center text-green-500">
+          <h4 class="text-md">Completed Questions</h4>
+          <span id="completed-count" class="counter text-2xl font-bold"></span>
+        </div>
+        <div class="text-center text-red-500">
+          <h4 class="text-md">Confused Questions</h4>
+          <span id="confusion-count" class="counter text-2xl font-bold"></span>
+        </div>
+      </div>
+    </div>
+
     <div id="questions-container"></div>
 
     <script src="{{url_for('static', filename='unitscript.js')}}"></script>
