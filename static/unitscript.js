@@ -319,6 +319,7 @@ const randomQuestionButton = createButton(
   "Get Random Question",
   "bg-gray-800 text-gray-200 rounded-md px-2 py-2 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50"
 );
+
 randomQuestionButton.style.marginTop = "1rem";
 randomQuestionButton.style.marginBottom = "1rem";
 questionsContainer.appendChild(randomQuestionButton);
@@ -353,14 +354,12 @@ const getConfusedQuestionsCount = () => {
 
 // Function to update the stat counter
 const updateStatCounter = (totalQuestions) => {
-  const ongoingCount = document.getElementById("ongoing-count");
   const completedCount = document.getElementById("completed-count");
   const confusionCount = document.getElementById("confusion-count");
   // Get the count of completed and confused questions
   const completedCountValue = getCompletedQuestionsCount();
   const confusionCountValue = getConfusedQuestionsCount();
 
-  ongoingCount.textContent = totalQuestions;
   completedCount.textContent = completedCountValue;
   confusionCount.textContent = confusionCountValue;
 };
