@@ -268,7 +268,7 @@ const getConfusionQuestions = () => {
     question.classList.contains("bg-red-700")
   );
 
-  if (confusionQuestions.length > 0) {
+  if (confusionQuestions?.length > 0) {
     const randomQuestion = getRandomElement(confusionQuestions);
     const copyOfRandomQuestion = randomQuestion.cloneNode(true);
 
@@ -278,6 +278,8 @@ const getConfusionQuestions = () => {
     }
 
     copyOfRandomQuestion.classList.add("text-white", "w-full");
+  } else {
+    alert("No Confusion Questions Found!");
   }
 };
 
@@ -285,9 +287,15 @@ const getRandomQuestion = () => {
   const questions = Array.from(document.querySelectorAll("li"));
   const randomQuestion = getRandomElement(questions);
   const copyOfRandomQuestion = randomQuestion.cloneNode(true);
+  const chapterName =
+    randomQuestion.parentNode.previousSibling.previousSibling.textContent;
 
   if (randomQuestionContainer) {
     randomQuestionContainer.innerHTML = "";
+    const chapterHeading = document.createElement("h2");
+    chapterHeading.textContent = chapterName;
+    chapterHeading.className = "text-xl font-bold text-left w-full";
+    randomQuestionContainer.appendChild(chapterHeading);
     randomQuestionContainer.appendChild(copyOfRandomQuestion);
   }
 
@@ -310,7 +318,7 @@ questionsContainer.appendChild(clearButton);
 
 const confusionsButton = createButton(
   "Get Confusions",
-  "bg-gray-800 text-gray-200 rounded-md px-2 py-2 mr-2 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50"
+  "bg-gray-800 text-gray-200 rounded-md px-2 py-2 mr-4 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50"
 );
 confusionsButton.style.marginTop = "1rem";
 questionsContainer.appendChild(confusionsButton);
@@ -325,7 +333,7 @@ randomQuestionButton.style.marginBottom = "1rem";
 questionsContainer.appendChild(randomQuestionButton);
 
 const randomQuestionContainer = document.createElement("div");
-randomQuestionContainer.className = "flex justify-center";
+randomQuestionContainer.className = "flex justify-center flex-col gap-2";
 questionsContainer.appendChild(randomQuestionContainer);
 
 const confusionsContainer = document.createElement("div");
