@@ -166,6 +166,7 @@ const createQuestionsList = (questions, askedList) => {
 const renderQuestionsContainer = (data) => {
   const questionsContainer = document.getElementById("questions-container");
   let totalQuestions = 0;
+
   data.questions.forEach((chapterData) => {
     const chapterHeading = createChapterHeading(chapterData.Chapter.trim());
     questionsContainer.appendChild(chapterHeading);
@@ -183,6 +184,28 @@ const renderQuestionsContainer = (data) => {
     );
     questionsContainer.appendChild(questionsList);
   });
+
+  const chapters = document.querySelectorAll("h2");
+
+  const chapterList = document.createElement("ul");
+  chapterList.className = "flex flex-col p-5 bg-gray-900 rounded-md mb-10";
+  const chapterListHeading = document.createElement("h2");
+  chapterListHeading.className = "text-2xl font-bold py-2";
+  chapterListHeading.textContent = `Chapters: ${chapters.length} (Click to scroll to the chapter)`;
+  chapterList.appendChild(chapterListHeading);
+  chapters.forEach((chapter) => {
+    // just put the element in the list and when the user clicks on it, scroll to that element
+    const chapterListItem = document.createElement("li");
+    chapterListItem.className =
+      "cursor-pointer hover:bg-gray-800 hover:rounded-lg font-medium border-b border-gray-700 px-2 py-2";
+    chapterListItem.textContent = chapter.textContent.split("Chapter: ")[1];
+    chapterListItem.addEventListener("click", () => {
+      chapter.scrollIntoView({ behavior: "smooth" });
+    });
+    chapterList.appendChild(chapterListItem);
+  });
+
+  questionsContainer.prepend(chapterList);
 };
 
 const handleFilterInput = (e) => {
@@ -389,3 +412,29 @@ const fetchQuestions = async () => {
 const filename = window.location.pathname.split("/").pop();
 
 fetchQuestions();
+
+const scrollButton = document.querySelector("#scroll-button");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 100) {
+    scrollButton.classList.remove("hidden");
+  } else {
+    scrollButton.classList.add("hidden");
+  }
+});
+
+scrollButton.onclick = () => {
+  const scrollDuration =
+    Math.max(
+      document.documentElement.scrollHeight,
+      document.body.scrollHeight
+    ) / 2;
+  const scrollStep = -window.scrollY / (scrollDuration / 500);
+  const scrollInterval = setInterval(() => {
+    if (window.scrollY !== 0) {
+      window.scrollBy(0, scrollStep);
+    } else {
+      clearInterval(scrollInterval);
+    }
+  }, 5);
+};
