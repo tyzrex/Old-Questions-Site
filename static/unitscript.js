@@ -84,8 +84,9 @@ const createListItem = (question, asked) => {
 
 const createChapterHeading = (chapter) => {
   const chapterHeading = document.createElement("h2");
-  chapterHeading.className = "text-2xl font-bold py-6";
-  chapterHeading.textContent = `Chapter: ${chapter}`;
+  chapterHeading.className =
+    "text-2xl font-bold py-6 text-white cursor-pointer rounded-md transition duration-200";
+  chapterHeading.textContent = `Chapter: ${chapter} `;
   return chapterHeading;
 };
 
@@ -170,6 +171,23 @@ const renderQuestionsContainer = (data) => {
   data.questions.forEach((chapterData) => {
     const chapterHeading = createChapterHeading(chapterData.Chapter.trim());
     questionsContainer.appendChild(chapterHeading);
+
+    //make such that it folds the chapter and its questions when clicked
+
+    chapterHeading.addEventListener("click", () => {
+      const questionsList =
+        chapterHeading.nextElementSibling.nextElementSibling;
+      questionsList.classList.toggle("hidden");
+      chapterHeading.classList.toggle("bg-orange-600");
+      if (questionsList.classList.contains("hidden")) {
+        chapterHeading.textContent += " (Click to expand)";
+      } else {
+        chapterHeading.textContent = chapterHeading.textContent.replace(
+          " (Click to expand)",
+          ""
+        );
+      }
+    });
 
     const numberOfQuestions = document.createElement("p");
     numberOfQuestions.className = "text-xl font-bold py-2";
@@ -438,3 +456,24 @@ scrollButton.onclick = () => {
     }
   }, 5);
 };
+
+const search = document.querySelector("#search-container");
+console.log(search);
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 5) {
+    search.classList.add(
+      "bg-gray-950",
+      "shadow-md",
+      "border-b",
+      "border-gray-700"
+    );
+  } else {
+    search.classList.remove(
+      "bg-gray-950",
+      "shadow-md",
+      "border-b",
+      "border-gray-700"
+    );
+  }
+});
