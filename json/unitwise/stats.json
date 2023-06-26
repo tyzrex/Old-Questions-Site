@@ -1,0 +1,156 @@
+{
+    "subject": "statistics-i",
+    "questions": [
+        {
+            "Chapter": "Unit: 1 Introduction",
+            "Question": [
+                "4. Explain the role of statistics in computer science and information technology.",
+                "13. State with suitable examples the role played by computer technology in applied statistics and the role of statistics in information technology.",
+                "12. Define primary data and secondary data and explain the difference between them.",
+                "12. What do you mean by measurement scale? Describe the different types of measurement scales used in statistics."
+            ],
+            "Asked": [
+                "Question",
+                "2078",
+                "2075",
+                "2076"
+            ]
+        },
+        {
+            "Chapter": "Unit: 2 Descriptive Statistics",
+            "Question": [
+                "1. What are different methods of measuring dispersion. Sample of polythene bags from two manufactures, A, B are tested by a prospective buyer for bursting pressure and the results are as follows.Which set of bags has more uniform pressure? If price are the same, which manufacture's bags would be preferred by buyer? Use appropriate statistical tool.",
+                "2. Explain how box-plot is helpful to know the shape of the data distribution. The following data set represents the number of new computer accounts registered during ten consecutive days.a) Compute the mean, median, quartiles, and sample standard deviation.b) Check whether there are outliers or not.c) If outliers are present, then delete the detected outliers and compute the mean, median, quartiles, and sample standard deviation again.d) Make your conclusion about the effect of outliers on descriptive statistical analysis.",
+                "1.\u00a0 Distinguish between absolute and relative measure of dispersion. Two computer manufacturers A and B compete for profitable and prestigious contract. In their rivalry, each claim that their computer a consistent. For this it was decided to start execution of the same program simultaneously on 50 computers of each company and recorded the time as given below.Which company's computer is more consistent?",
+                "1. What are the roles of measure of dispersion in descriptive statistics? Following table gives the frequency distribution of thickness of computer chips (in nanometer) manufactured by two companies.Which company may be considered more consistent in terms of thickness of computer chips? Apply appropriate descriptive statistics.",
+                "4. If 50 image of your website, 10 have black and white image, and their average scanned image occupies with 2.5 megabytes of memory. The total image occupies by the entire work 281 megabytes. Find the average occupies megabytes of those color images.",
+                "5. Calculate Q1, D7, and P58 from the following data and interpret the results.",
+                "5. Following table presents some descriptive statistics computed from three different independent sample dataset(X).a) Compare sample mean and median, and explain about the shape of the data distribution for each dataset. Compare the variability of the three set of dataset. Box-plots have been generated through SPSS for each dataset as follows.b) Do these box-plots support your findings obtained in a) about the shape of the distribution? Explain.",
+                "4. Measurement of computer chip's thickness (in monometers) is recorded below.\u00a0\u00a0\u00a0\u00a0Find the mode of thickness of computer chips and interpret the result.",
+                "4. The following table gives the installation time (in minutes) for hardware on 50 different computers.\u00a0\u00a0\u00a0\u00a0If the average installation time is 30.2 minutes, find missing frequencies.",
+                "5. Calculate Q3, D6, and P80 from the following data and interpret the results.",
+                "5. The length of power failure in minute are recorded in the following table.Find Q3, D2 and P40 and interpret the results",
+                "9. Compute first four moments about arbitrary point 4 from following distribution and describe the characteristics of data.",
+                "10. Compute percentile coefficient of kurtosis from the following data and interpret the result."
+            ],
+            "Asked": [
+                "2078",
+                "Question",
+                "2075",
+                "2076",
+                "2078",
+                "2078",
+                "Question",
+                "2075",
+                "2076",
+                "2075",
+                "2076",
+                "2078",
+                "2075"
+            ]
+        },
+        {
+            "Chapter": "Unit: 3 Introduction to Probability",
+            "Question": [
+                "1. A new computer program consists of two modules. The first module contains an error with probability 0.2. The second module is more complex; it has a probability of 0.4 to contain an error, independently of the first module. An error in the first module alone causes the program to crash with probability 0.5. For the second module, this probability is 0.8. If there are errors in both modules, the program crashes with probability 0.9. Suppose the program crashed. What is the probability of errors in both modules?",
+                "6. A large chain retailer purchases a certain kind of electronic device from a manufacturer. The manufacturer indicates that the defective rate of the device is 3%.a) The inspector randomly picks 20 items from a shipment. What is the probability that there will be at least one defective item among these 20?b) Suppose that the retailer receives 10 shipments in a month and the inspector randomly tests 20 devices per shipment. What is the probability that there will be exactly 3 shipments each containing at least one defective device among the 20 that are selected and tested from the shipment?",
+                "6. A manufacturing company employs three analytical plans for the design and development of a particular product. For cost reasons, all three are used at varying times. In facts, plan 1,2 and 3 are used for 30%, 20% and 50% of the products respectively. The defect rate in different procedures is as follows: P(D/P1) = 0.01, P(D/P2) = 0.03, P(D/P3)= 0.02, where P(D/PJ) is the probability of a defective product, given plan j. If a random product was observed and found to be defective, which plan was most likely used and thus responsible?",
+                "9. A large chain retailer purchases a certain kind of electronic device from a manufacturer. The manufacturer indicates that the defective rate of the device is 15%. The inspector randomly picks 10 items from a shipment. What is the probability that there will be at least one defective item among these 10?"
+            ],
+            "Asked": [
+                "Question",
+                "Question",
+                "2076",
+                "2076"
+            ]
+        },
+        {
+            "Chapter": "Unit: 4 Sampling",
+            "Question": [
+                "12. What do you mean by sampling? Explain the difference between stratified sampling and cluster sampling.",
+                "12. Write short notes on the following.\u00a0\u00a0\u00a0\u00a0a) Sampling error and non-sampling error\u00a0\u00a0\u00a0\u00a0b) Conditional probability",
+                "13. What do you mean by sampling? Explain non probability sampling with merits and demerits.",
+                "13. What is sampling? Discuss various probability sampling techniques with merits and demerits."
+            ],
+            "Asked": [
+                "2078",
+                "Question",
+                "2075",
+                "2076"
+            ]
+        },
+        {
+            "Chapter": "Unit: 5 Random Variables and Mathematical Expectation",
+            "Question": [
+                "7. The random variable X has following probability distribution.Find (i) E(X) and var(X) (ii) Calculate E(Y) if Y = 3X + 5.",
+                "11. The lifetime of a certain electronic component is a normal random variate with the expectation of 5000 hours and a standard deviation of 100 hours. Compute the probabilities under the following conditionsa) Lifetime of components is less than 5012 hoursb) Lifetime of components between 4000 to 6000 hoursc) Lifetime of components more than 7000 hours"
+            ],
+            "Asked": [
+                "2076",
+                "Question"
+            ]
+        },
+        {
+            "Chapter": "Unit: 6 Probability Distributions",
+            "Question": [
+                "3. (a) What do you understand by Poisson distribution? What are its main features?\u00a0 \u00a0 (b) What do you mean by joint probability distribution function? Write down its properties.",
+                "3.\u00a0 (a). What do you understand by binomial distribution? What are its main features?\u00a0\u00a0\u00a0\u00a0(b). What do you mean by marginal probability distribution? Write down its properties.",
+                "3. (a) Define Normal distribution. What are the main characteristics of a Normal distribution?\u00a0\u00a0\u00a0\u00a0(b) What do you mean by probability density function? Write down its properties.",
+                "6. The following joint probability data apply to fatigue test to be run on bronze strips. X represent to failure (in 105) when alternate strips are bent at a high level of deflection. Y represent the same at a lower deflection level.\u00a0\u00a0\u00a0\u00a0\u00a0 \u00a0 a) Find the marginal probability distribution for X and for Y.\u00a0 \u00a0 b) Determine the conditional probability distribution of Y given X=5.\u00a0 \u00a0 c) Are X and Y independent?",
+                "7. Fit a binomial distribution to the following data.",
+                "7. Messages arrive at an electronic message center at random times, with an average of 9 messages per hour.a) What is the probability of receiving at least five messages during the next hour?b) What is the probability of receiving exactly seven messages during the next hour?",
+                "8. If two random variables have the joint probability density functionFind (i) constant k\u00a0 \u00a0 (ii) Conditional probability density function of X given Y\u00a0 \u00a0 (iiI) identify whether X and Y are independent.",
+                "8. The time, in minutes, it takes to reboot a certain system is a continuous variable with the density function:Compute C, and then compute the probability that it takes between 1 and 2 minutes to reboot.",
+                "6. Define a random variable. For the following bi-variants probability distribution of X and Y , find \u00a0\u00a0\u00a0\u00a0[i] marginal probability mass function of X and Y , \u00a0\u00a0\u00a0\u00a0[ii] P(x\u22641, Y=2), \u00a0\u00a0\u00a0\u00a0[iii] P(X\u22641)",
+                "10. The lifetime of a certain electronic component is a normal random variate with the exception of 5000 hours and a standard deviation of 100 hours. Compute the probabilities under the following conditions:\u00a0 \u00a0 a) Lifetime of components is less than 4000 hours\u00a0 \u00a0 b) Lifetime of components between 3000 to 6500 hours\u00a0 \u00a0 c) Lifetime of components more than 6000",
+                "7. If two random variables have the joint probability density functionFind (i) constant k (ii) Conditional probability density function of X and given Y (iii) Var(3X + 2Y)",
+                "10. Define exponential distribution with parameter\u00a0\u03bb\u00a0. The time required to reach to the printer after ordering in the computer follows exponential distribution at an average rate of 3 jobs per hour.a) What is the expected time between jobs?b) What is the probability that the next job is sent within 5 minutes?",
+                "8. A certain machine makes electrical resistors having mean resistance of 40 ohms and standard deviations of 2 ohms. Assuming that the resistance follows a normal distribution.\u00a0\u00a0\u00a0\u00a0(i) What percentage of resistors will have a resistance exceeding 43 ohms?\u00a0\u00a0\u00a0\u00a0(ii) What percentage of registors will have a resistance between 30 ohms to 45 ohms?",
+                "8. If two random variables have the joint probability density functionFind (i) constant k (ii) Conditional probability density function of x given Y (iii) Identify whether X and Y are independent.",
+                "10. Messages arrive at an electronic message center at random times, with an average of 9 messages per hour.\u00a0\u00a0\u00a0\u00a0a) What is the probability of receiving at least four messages during the next hour?\u00a0\u00a0\u00a0\u00a0b) What is the probability of receiving at most three messages during the next hour?",
+                "11. Write the properties of Poisson distribution. Fit a poision distribution and find the expected frequencies."
+            ],
+            "Asked": [
+                "2078",
+                "2075",
+                "2076",
+                "2078",
+                "2078",
+                "Question",
+                "2078",
+                "Question",
+                "2075",
+                "2078",
+                "2075",
+                "Question",
+                "2075",
+                "2076",
+                "2076",
+                "2075"
+            ]
+        },
+        {
+            "Chapter": "Unit: 7 Correlation and Linear Regression",
+            "Question": [
+                "2. Write the properties of correlation coefficient. The time it takes to transmit a file always depends on the file size. Suppose you transmitted 30 files, with the average size of 126K bytes and the standard deviation of 35 Kbytes. The average transmitted time was 0.04 seconds with the standard deviation 0.01 seconds. The correlation coefficient between the time and size was 0.86. Based on these data, fit a linear regression model and predict the time it will take to transmit a 400K byte file.",
+                "3. A computer manager interested to know how efficiency of his/her new computer program which depends on the size of incoming data. Efficiency will be measured by the number of processed requests per hour. In general, larger data sets require more computer time, and therefore, fewer requests are processed within 1 hour. Applying the program to data sets of different sizes, the following data were gathered.a) Identify which one response variable, and fit a simple regression line, assuming that the relationship between them is linear.b) Interpret the regression coefficient with reference to your problem.c) Obtain coefficient of determination, and interpret this.d) Based on the fitted model in (a), predict the efficiency of new computer for data size 12(gigabytes). Does it possible to predict efficiency for data size of 30 gigabytes? Discuss.",
+                "2. In a certain type of metal test specimen. the effect of normal stress on a specimen is known to be functionally related to shear resistance. The following table gives the data on the two variables.\u00a0\u00a0\u00a0\u00a0(i). Identify which one is response variable, and fit a simple regression line, assuming that the relationship between them is linear.\u00a0\u00a0\u00a0\u00a0(ii). Interpret the regression coefficient with reference to your problem.\u00a0\u00a0\u00a0\u00a0(iii). Obtain the coefficient of determination, and interpret this.\u00a0\u00a0\u00a0\u00a0(iv). Based on the fitted model in (a), predict the shear resistance for normal stress of 30 kilogram per square centimeter .",
+                "2. A study was done to study the effect of ambient temperature on the electric power consumed by a chemical plant. Following table gives the data which are collected from an experimental pilot plant.\u00a0\u00a0\u00a0\u00a0\u00a0(i) Identify which one is response variable, and fit a simple regression line, assuming that the relationship between them is linear.\u00a0\u00a0\u00a0\u00a0(ii) Interpret the regression coefficient with reference to your problem.\u00a0\u00a0\u00a0\u00a0(iii) Obtain coefficient of determination, and interpret this.\u00a0\u00a0\u00a0\u00a0(iv) Based on the fitted model in (a), predict the power consumption for an ambient temperature of 650F.",
+                "9. Following data represent the preference of 10 students studying B.Sc .(CSIT) towards two brands of computers namely DELL and HP.Apply appropriate statistical tool to measure whether the brand preference is correlated. Also interpret your result.",
+                "11. Calculate Spearman's rank correlation coefficient for the following ranks given by three judges in a music contest.Indicate which pair of judges has the nearest approach to music.",
+                "9. As part of the study of the psychobiological correlates of success in athletes, the following measurements are obtained from members of Nepal national football team.\u00a0\u00a0\u00a0\u00a0Calculate Spearman's rank correlation coefficient.",
+                "11. Following data represent the preference of 10 students studying B.Sc.(CSIT) towards two brands of computers namely DELL and HP.\u00a0\u00a0\u00a0\u00a0Apply appropriate statistical tool to measure whether the brand preference is correlated. Also interpret your result."
+            ],
+            "Asked": [
+                "2078",
+                "Question",
+                "2075",
+                "2076",
+                "Question",
+                "2078",
+                "2075",
+                "2076"
+            ]
+        }
+    ]
+}
