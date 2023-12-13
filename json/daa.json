@@ -1,0 +1,26 @@
+{
+    "subject": "daa",
+    "questions": [
+        "Explain the divide and conquer strategy for problem solving. Describe the worst-case linear time selection algorithm and analyze its complexity.",
+        "Write the dynamic programming algorithm for matrix chain multiplication. Find the optimal parenthesization for the matrix chain product ABCD with size of each is given as A5\u00d710\u00a0,\u00a0B10\u00d715 , C15\u00d720 , D20\u00d730",
+        "What do you mean by Backtracking? Explain the backtracking algorithm for solving 0-1\nknapsack problem and find the solution for the problem given below:",
+        "",
+        "Explain the iterative algorithm to find the GCD of given two numbers and analyze its complexity.",
+        "Generate the prefix code for the string \u201d CYBER CRIME\u201d using Huffman algorithm and find the total number of bits required.",
+        "Define tractable and intractable problem. Illustrate vertex cover problem with an example.",
+        "Find the edit distance between the string \u201d ARTIFICIAL\u201d and \u201cNATURAL\u201d Using dynamic programming.",
+        "Write short notes on:\na) Best, Worst and average case complexity",
+        "b) Greedy Strategy",
+        "Solve the following recurrence relations using masters method",
+        "a. T(n) = 2T(n/4) + kn2, n > 1",
+        "=1 ,\u00a0 n=1",
+        "b. T(n) = 5T(n/4) + kn , n > 1",
+        "=1\u00a0 ,\u00a0 \u00a0n=1",
+        "\u00a0",
+        "\u00a0",
+        "Solve the following linear congrvences using Chinese Remainder Theorem.\nX=l (MOD 2)\nX=3 (MOD 5)\nx=6 (MOD 7)",
+        "Find the MST from following graph using Kruskal\u2019s algorithm.",
+        "",
+        "Trace the quick sort algorithm for sorting the array A[ ]={15,7,6,23, 18,34,25} and write it\u2019s best and worst complexity."
+    ]
+}

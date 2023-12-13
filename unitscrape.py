@@ -7,7 +7,6 @@ import json
 
 
 class WebScraper:
-
     def get_all_questions_collegenote(self, url):
         results = []
 
@@ -19,75 +18,74 @@ class WebScraper:
             return None
 
         data_soup = soup(data_html.text, "html.parser")
-        card = data_soup.find_all('div', class_='card')
+        card = data_soup.find_all("div", class_="card")
 
         for question in card:
-            questions = question.find_all('div', class_='col-10')
-            asked = question.find_all('div', class_='col-2')
-            buttons = question.find('button', class_='btn btn-link')
-            results.append({
-                "Chapter": buttons.text,
-                "Question": [q.text for q in questions],
-                "Asked": [a.text for a in asked]
-            })
+            questions = question.find_all("div", class_="col-10")
+            asked = question.find_all("div", class_="col-2")
+            buttons = question.find("button", class_="btn btn-link")
+            results.append(
+                {
+                    "Chapter": buttons.text,
+                    "Question": [q.text for q in questions],
+                    "Asked": [a.text for a in asked],
+                }
+            )
 
         return results
 
     def write_json_file(self, data, selected_subject):
-        json_data = {
-            "subject": selected_subject,
-            "questions": []
-        }
+        json_data = {"subject": selected_subject, "questions": []}
         for data in tqdm(data, desc="Writing questions", unit="question"):
             json_data["questions"].append(data)
 
         json_str = json.dumps(json_data, indent=4)
 
-        with open(f"{selected_subject}.json", 'w') as file:
+        with open(f"{selected_subject}.json", "w") as file:
             file.write(json_str)
 
     def get_all_questions_hamrocsit(self, url):
         results = []
         data_html = requests.get(url)
         data_soup = soup(data_html.text, "html.parser")
-        question_container = data_soup.find_all('div', class_='qnbank_content')
-        for question in tqdm(question_container, desc="Scraping questions", unit="question"):
-            question = question.find_all('p')
+        question_container = data_soup.find_all("div", class_="qnbank_content")
+        for question in tqdm(
+            question_container, desc="Scraping questions", unit="question"
+        ):
+            question = question.find_all("p")
             for q in question:
                 results.append(q.text)
 
         return results
 
     def write_to_file_hamrocsit(self, questions, selected_subject):
-        json_data = {
-            "subject": selected_subject,
-            "questions": []
-        }
+        json_data = {"subject": selected_subject, "questions": []}
 
         for question in tqdm(questions, desc="Writing questions", unit="question"):
             json_data["questions"].append(question)
 
         json_str = json.dumps(json_data, indent=4)
 
-        with open('questions.json', 'w') as file:
+        with open("questions.json", "w") as file:
             file.write(json_str)
 
     def scrape_options(self):
         site_options = {
             "Hamro csit": "https://www.hamrocsit.com/",
-            "College Note": "https://www.collegenote.net/"
+            "College Note": "https://www.collegenote.net/",
         }
 
         site = TerminalMenu(list(site_options.keys())).show()
         site = list(site_options.keys())[site]
 
-        if (site == "Hamro csit"):
+        if site == "Hamro csit":
             subjects = {
-                "Theory of Computation": "toc",
-                "Computer Networks": "cn",
-                "Operating Systems": "os",
-                "Database Management System": "dbms",
-                "Artificial Intelligence": "ai"
+                "Design and analysis of algorithms": "daa",
+                "Simulation and Modeling": "sm",
+                "Multimedia Computing": "multimedia",
+                "Sytem Analysis and design": "sad",
+                "Web Tech": "web-tech",
+                "Cryptography": "cryptography",
             }
 
             print("Enter the subject which you want to scrape: ")
@@ -100,16 +98,17 @@ class WebScraper:
             year = TerminalMenu(options).show()
             year = options[year]
 
-            url = f"https://hamrocsit.com/semester/fourth/{selected_subject}/question-bank/{year}/"
+            url = f"https://hamrocsit.com/semester/fifth/{selected_subject}/question-bank/{year}/"
             return url, site, selected_subject
 
         else:
             subjects = {
-                "Theory of Computation": "pastpapers/unit-wise-questions/TU/CSIT/theory-of-computation/34",
-                "Computer Networks": "pastpapers/unit-wise-questions/TU/CSIT/computer-networks/31",
-                "Operating Systems": "pastpapers/unit-wise-questions/TU/CSIT/operating-systems/33",
-                "Database Management System": "pastpapers/unit-wise-questions/TU/CSIT/database-management-system/32",
-                "Artificial Intelligence": "pastpapers/unit-wise-questions/TU/CSIT/artificial-intelligence/30"
+                "Design and analysis of algorithms": "pastpapers/unit-wise-questions/TU/CSIT/design-and-analysis-of-algorithms/4",
+                "Cryptography": "pastpapers/unit-wise-questions/TU/CSIT/cryptography/6",
+                "Simulation and Modeling": "pastpapers/unit-wise-questions/TU/CSIT/simulation-and-modelling/7",
+                "Multimedia Computing": "pastpapers/unit-wise-questions/TU/CSIT/multimedia-computing/9",
+                "Sytem Analysis and design": "pastpapers/unit-wise-questions/TU/CSIT/system-analysis-and-design/5",
+                "Web Tech": "pastpapers/unit-wise-questions/TU/CSIT/web-technology/8",
             }
 
             # Display the menu and get user's choice
@@ -125,7 +124,7 @@ class WebScraper:
         url, site, selected_subject = self.scrape_options()
         print(url)
         print("Scraping questions from", url)
-        if (site == "Hamro csit"):
+        if site == "Hamro csit":
             questions = self.get_all_questions_hamrocsit(url)
             self.write_to_file_hamrocsit(questions, selected_subject)
             return selected_subject
