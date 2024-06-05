@@ -38,7 +38,7 @@ const createListItem = (question, asked) => {
 
   const copyButton = createButton(
     "Copy",
-    "bg-gray-700 text-gray-200 rounded-md px-2 py-1 ml-2 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50",
+    "bg-gray-700 text-gray-200 rounded-md px-2 py-1 ml-2 hover:bg-zinc-900 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50",
     () => {
       navigator.clipboard.writeText(questionText);
     }
@@ -56,7 +56,7 @@ const createListItem = (question, asked) => {
 
   const markButton = createButton(
     "Save to confusions",
-    "bg-gray-700 text-gray-200 rounded-md px-2 py-1 ml-2 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50",
+    "bg-gray-700 text-gray-200 rounded-md px-2 py-1 ml-2 hover:bg-zinc-900 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50",
     () => {
       const data = {
         question: questionText,
@@ -99,7 +99,7 @@ const createSubjectName = (subject) => {
 
 const createQuestionsList = (questions, askedList) => {
   const questionsList = document.createElement("ul");
-  questionsList.className = "p-4 bg-gray-900 rounded-md";
+  questionsList.className = "p-4 bg-zinc-900 rounded-md";
 
   const completedKey = "completed";
   const confusionsKey = "confusions";
@@ -109,7 +109,7 @@ const createQuestionsList = (questions, askedList) => {
 
     const completeButton = createButton(
       "Complete",
-      "bg-gray-700 text-gray-200 rounded-md px-2 py-1 ml-2 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50",
+      "bg-gray-700 text-gray-200 rounded-md px-2 py-1 ml-2 hover:bg-zinc-900 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50",
       () => {
         const data = {
           question: question,
@@ -137,7 +137,7 @@ const createQuestionsList = (questions, askedList) => {
     if (listItem) {
       listItem.classList.add(
         "border-b",
-        "border-gray-700",
+        "border-gray-600",
         "transition",
         "duration-200",
         "px-4",
@@ -149,7 +149,7 @@ const createQuestionsList = (questions, askedList) => {
       const ongoingbutton = document.createElement("button");
       ongoingbutton.textContent = "Ongoing";
       ongoingbutton.className =
-        "bg-gray-700 text-gray-200 rounded-md px-2 py-1 ml-2 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50";
+        "bg-gray-700 text-gray-200 rounded-md px-2 py-1 ml-2 hover:bg-zinc-900 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50";
       ongoingbutton.addEventListener("click", () => {
         listItem.classList.toggle("bg-yellow-500");
         listItem.classList.remove("bg-green-700");
@@ -206,7 +206,7 @@ const renderQuestionsContainer = (data) => {
   const chapters = document.querySelectorAll("h2");
 
   const chapterList = document.createElement("ul");
-  chapterList.className = "flex flex-col p-5 bg-gray-900 rounded-md mb-10";
+  chapterList.className = "flex flex-col p-5 bg-zinc-900 rounded-md mb-10";
   const chapterListHeading = document.createElement("h2");
   chapterListHeading.className = "text-2xl font-bold py-2";
   chapterListHeading.textContent = `Chapters: ${chapters.length} (Click to scroll to the chapter)`;
@@ -215,7 +215,7 @@ const renderQuestionsContainer = (data) => {
     // just put the element in the list and when the user clicks on it, scroll to that element
     const chapterListItem = document.createElement("li");
     chapterListItem.className =
-      "cursor-pointer hover:bg-gray-800 hover:rounded-lg font-medium border-b border-gray-700 px-2 py-2";
+      "cursor-pointer hover:bg-gray-800 hover:rounded-lg font-medium border-b border-gray-600 px-2 py-2";
     chapterListItem.textContent = chapter.textContent.split("Chapter: ")[1];
     chapterListItem.addEventListener("click", () => {
       chapter.scrollIntoView({ behavior: "smooth" });
@@ -359,14 +359,14 @@ questionsContainer.appendChild(clearButton);
 
 const confusionsButton = createButton(
   "Get Confusions",
-  "bg-gray-800 text-gray-200 rounded-md px-2 py-2 mr-4 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50"
+  "bg-gray-800 text-gray-200 rounded-md px-2 py-2 mr-4 hover:bg-zinc-900 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50"
 );
 confusionsButton.style.marginTop = "1rem";
 questionsContainer.appendChild(confusionsButton);
 
 const randomQuestionButton = createButton(
   "Get Random Question",
-  "bg-gray-800 text-gray-200 rounded-md px-2 py-2 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50"
+  "bg-gray-800 text-gray-200 rounded-md px-2 py-2 hover:bg-zinc-900 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50"
 );
 
 randomQuestionButton.style.marginTop = "1rem";
@@ -464,17 +464,17 @@ console.log(search);
 window.addEventListener("scroll", () => {
   if (window.scrollY > 5) {
     search.classList.add(
-      "bg-gray-950",
+      "bg-black",
       "shadow-md",
       "border-b",
-      "border-gray-700"
+      "border-gray-600"
     );
   } else {
     search.classList.remove(
-      "bg-gray-950",
+      "bg-black",
       "shadow-md",
       "border-b",
-      "border-gray-700"
+      "border-gray-600"
     );
   }
 });

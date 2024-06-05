@@ -11,7 +11,7 @@ const renderConfusionsList = (confusions) => {
     const listItem = document.createElement("ul");
     listItem.classList.add(
       "border-b",
-      "border-gray-700",
+      "border-gray-600",
       "hover:bg-gray-800",
       "transition",
       "duration-200",

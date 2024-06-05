@@ -61,7 +61,7 @@ const renderListItem = (paragraph) => {
 // Renders a list of paragraphs
 const renderParagraphsList = (paragraphs) => {
   const paragraphsList = document.createElement("ul");
-  paragraphsList.classList.add("p-4", "bg-gray-900", "rounded-md");
+  paragraphsList.classList.add("p-4", "bg-zinc-900", "rounded-md");
 
   paragraphs.forEach((paragraph) => {
     // until a new number starts, add the paragraph to the previous list item
