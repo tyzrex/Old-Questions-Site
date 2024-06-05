@@ -12,8 +12,8 @@ def home():
 
 @app.route("/unitwisequestions/<subject>")
 def get_unitwise_questions(subject):
-    clean_subject = subject.replace(" ", "")
-    with open(f"questions_json/{clean_subject}.json") as file:
+    print(subject)
+    with open(f"questions_json/{subject}.json") as file:
         questions_data = json.load(file)
     return jsonify(questions_data)
 
