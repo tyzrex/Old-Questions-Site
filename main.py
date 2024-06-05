@@ -6,33 +6,21 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return render_template("index.html")
+    with open(f"json/subjects.json") as file:
+        subjects_data = json.load(file)
+    return render_template("index.html", subjects_data=subjects_data)
 
-
-@app.route("/<subject>")
-def get_page(subject):
-    return render_template(f"yearwise.html")
+@app.route("/unitwisequestions/<subject>")
+def get_unitwise_questions(subject):
+    print(subject)
+    with open(f"json/questions_json/{subject}.json") as file:
+        questions_data = json.load(file)
+    return jsonify(questions_data)
 
 
 @app.route("/unitwise/<subject>")
 def unitwise(subject):
     return render_template(f"unitwise.html")
-
-
-@app.route("/questions/<subject>")
-def get_questions(subject):
-    print(subject)
-    with open(f"json/{subject}.json") as file:
-        questions_data = json.load(file)
-    return jsonify(questions_data)
-
-
-@app.route("/unitwisequestions/<subject>")
-def get_unitwise_questions(subject):
-    print(subject)
-    with open(f"json/unitwise/{subject}.json") as file:
-        questions_data = json.load(file)
-    return jsonify(questions_data)
 
 
 @app.route("/scrape", methods=["GET"])
