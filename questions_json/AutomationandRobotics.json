@@ -1,0 +1,61 @@
+{
+    "subject": "AutomationandRobotics",
+    "questions": [
+        {
+            "Chapter": "Unit 1: Introduction \n                                            \n\n                                                12 Questions",
+            "Question": [
+                "1. Where can the concept of pneumatic drive be used? Derive the equation of HP of motor. (4+6)",
+                "2. Explain different path planning approaches in detail. (10)",
+                "3. Differentiate between mechanical gripper, magnetic gripper and suction/vacuum gripper. What are the factors that should be considered while selecting and designing grippers? Derive the required magnitude of the gripper force. (3+3+4)",
+                "4. State Asimov\u2019s laws of robotics. Explain major components of robotics. (2+3)",
+                "5. Describe machine vision with necessary figures. (5)",
+                "6. Determine a transformation \u2018T\u2019 matrix that represents a rotation of \u2018\u03b1\u2019 angle about the OX axis followed by a translation of \u2018b\u2019 units along the rotated OV axis. (5)",
+                "7. Differentiate between pneumatic and electronic force control respectively. List their advantages and disadvantages. (2+3)",
+                "8. How can hill climbing techniques be implemented in robotics? What are its limitations.(3+2)",
+                "9. How process control tuning can be achieved? (5)",
+                "10. Highlight on the challenges of robot cell design. (5)",
+                "11. How inverse kinematics problem can be solved. Explain with necessary figures and equations. (5)",
+                "12. Write short notes on: (2 \u00d7 2.5 = 5)a. Robot programming languagesb. Power wall"
+            ],
+            "Asked": [
+                "10 marks Asked in ModelQuestion",
+                "10 marks Asked in ModelQuestion",
+                "10 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion"
+            ]
+        },
+        {
+            "Chapter": "Unit 2: Power Sources and Sensors \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 3: Manipulators, Actuators, and Grippers \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 4: Kinematics and Path Planning \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 5: Process Control \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 6: Case Studies \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        }
+    ]
+}

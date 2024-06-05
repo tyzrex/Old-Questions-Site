@@ -1,0 +1,186 @@
+{
+    "subject": "IntroductiontoInformationTechnology",
+    "questions": [
+        {
+            "Chapter": "Unit 1: Introduction to Computer \n                                            \n\n                                                27 Questions",
+            "Question": [
+                "1. Define computer software. Differentiate system software with application software. Explain different types system software in detail.(1 + 2 + 7)",
+                "1. Explain the CPU and its working principle.",
+                "1. What is operating system? Discuss different functions of operating system in detail.(2 + 8)",
+                "2. What are the benefits of using computer network? Explain different types of system software in detail.What is network topology?(3+6+1)",
+                "2. Why do we need computer network? Discuss different types of network topologies along with their merits and demerits.(3+7)",
+                "3. What are the major characteristics of computer? Explain.",
+                "3. What are the benefits of storing data using databases? Discuss three levels of database system architecture in detail.(3+7)",
+                "3. What is database? What are benefits of using storing database system architectures in detail.(1 + 3 + 6)",
+                "4. Distinguish among the four kinds of computer systems.",
+                "4. What are different characteristics of a computer? Differentiate digital computer with analog computer.",
+                "4. Discuss characteristics of third generation of computers. Compare it with fourth generation.(3+2)",
+                "5. Discuss the components of CPU in brief.(5)",
+                "5. What is primary memory? Compare primary memory with secondary memory.",
+                "6. What is primary memory? Discuss different types of primary memory.(1+4)",
+                "6. Define memory hierarchy. Explain different types of\u00a0 ROM in detail.(1+4)",
+                "7. Define hard-copy and soft-copy output. Differentiate between impact and non-impact printers with example.(2+3)",
+                "7.Explain any two input devices in detail.(5)",
+                "8. Convert (110101.101)2 to decimal.(5)",
+                "9. Define IP address. Why do we need this address? Compare IPv4 address with IPv6 address.(1+2+2)",
+                "9. Define IP address with example. What are the benefits of using domain name?(2+3)",
+                "10. What are the characteristics of multimedia? Discuss.(5)",
+                "10. What are different elements of multimedia? Explain.(5)",
+                "11. Define cryptography. Discuss public key cryptography in detail.(1+4)",
+                "11. What is cryptography? How does cryptography provide security to our data?",
+                "12. Write short notes on:(2 x 2.5 = 5)a. Central processing unitb.IoT",
+                "12. Highlight on computers in Education and training in brief.",
+                "12. Write short notes on:(2 x 2. 5 = 5)a. BigDatab. E-governance"
+            ],
+            "Asked": [
+                "10 marks Asked in 2077",
+                "10 marks Asked in 2066",
+                "10 marks Asked in ModelQuestion",
+                "10 marks Asked in 2077",
+                "10 marks Asked in ModelQuestion",
+                "10 marks Asked in 2067",
+                "10 marks Asked in ModelQuestion",
+                "10 marks Asked in 2077",
+                "8 marks Asked in 2068",
+                "5 marks Asked in 2077",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2077",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2077",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2077",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2077",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2068",
+                "5 marks Asked in ModelQuestion"
+            ]
+        },
+        {
+            "Chapter": "Unit 2: The Computer System Hardware \n                                            \n\n                                                4 Questions",
+            "Question": [
+                "4. What is computer system? Discuss components of computer system.",
+                "4. What is the role of Control Unit in CPU? How analog computer differs from digital?",
+                "5. Why bus is used in computer? How control bus differs from data bus?",
+                "5. How RISC architecture differs from CISC architecture?"
+            ],
+            "Asked": [
+                "5 marks Asked in 2074",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2074",
+                "5 marks Asked in 2075"
+            ]
+        },
+        {
+            "Chapter": "Unit 3: Computer Memory \n                                            \n\n                                                2 Questions",
+            "Question": [
+                "6. How many numbers of bites are equivalent 1 kilobyte? Discuss the working mechanism of magnetic tape.",
+                "6. What is the purpose of cache memory? How sequential access differs from direct access?"
+            ],
+            "Asked": [
+                "5 marks Asked in 2074",
+                "5 marks Asked in 2075"
+            ]
+        },
+        {
+            "Chapter": "Unit 4: Input and Output Devices \n                                            \n\n                                                2 Questions",
+            "Question": [
+                "7. Mention the use of plotter. How quality of printer is determined?",
+                "7. Explain the working mechanism of a keyboard."
+            ],
+            "Asked": [
+                "5 marks Asked in 2074",
+                "5 marks Asked in 2075"
+            ]
+        },
+        {
+            "Chapter": "Unit 5: Data Representation \n                                            \n\n                                                2 Questions",
+            "Question": [
+                "1. Discuss the concept behind the fixed point number representation. What can be the fixed point representation of a signed number 8? Convert (14.14)10 into binary and octal.",
+                "12. Convert (10.4)10 ti binary. Add (10111)2 with(01111)2."
+            ],
+            "Asked": [
+                "10 marks Asked in 2075",
+                "5 marks Asked in 2074"
+            ]
+        },
+        {
+            "Chapter": "Unit 6: Computer Software \n                                            \n\n                                                2 Questions",
+            "Question": [
+                "2. What is the objective of using operating system? How operating system performs process, memory and file management activities.",
+                "3. Why system software is needed in computers? Discuss various types of operating system."
+            ],
+            "Asked": [
+                "10 marks Asked in 2074",
+                "10 marks Asked in 2075"
+            ]
+        },
+        {
+            "Chapter": "Unit 7: Data Communication and Computer Network \n                                            \n\n                                                3 Questions",
+            "Question": [
+                "1. What is communication protocol? Discuss the OSI model with its layers.",
+                "2. What is switching? How can you differentiate packet switching from circuit switching? What are the advantages of using optical fibers?",
+                "9. Define computer network. Suppose you have a two story building having 15 computers in each of two floors. Now if you are asked to create a network of these computers, what type of network will you create? Give proper justification to your answer."
+            ],
+            "Asked": [
+                "10 marks Asked in 2074",
+                "10 marks Asked in 2075",
+                "5 marks Asked in 2075"
+            ]
+        },
+        {
+            "Chapter": "Unit 8: The Internet and Internet Services \n                                            \n\n                                                3 Questions",
+            "Question": [
+                "8. What do you mean by Internet of Things (IoT)? As an IT expert, mention the possible applications of IoT that you have observed in Nepal.",
+                "8. Why IP address is used in internet? Mention the significance of domain names in internet",
+                "9. What do you mean by HTTP and how does it works?"
+            ],
+            "Asked": [
+                "5 marks Asked in 2074",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2066"
+            ]
+        },
+        {
+            "Chapter": "Unit 9: Fundamentals of Database \n                                            \n\n                                                3 Questions",
+            "Question": [
+                "3. What is data model? How ER-Model can be used to create conceptual data model? Explain with example.",
+                "11. What is BigData? How centralized database is different than the distributed database?",
+                "12. What is database system? How data can be stored using relational model."
+            ],
+            "Asked": [
+                "10 marks Asked in 2074",
+                "5 marks Asked in 2074",
+                "5 marks Asked in 2075"
+            ]
+        },
+        {
+            "Chapter": "Unit 10: Multimedia \n                                            \n\n                                                2 Questions",
+            "Question": [
+                "10. What is multimedia? Discuss the applications of multimedia.",
+                "11. Discuss the characteristics of multimedia."
+            ],
+            "Asked": [
+                "5 marks Asked in 2074",
+                "5 marks Asked in 2075"
+            ]
+        },
+        {
+            "Chapter": "Unit 11: Computer Security \n                                            \n\n                                                2 Questions",
+            "Question": [
+                "9. Define each of the terms confidentiality, integrity, and authentication.",
+                "10. What is malicious software? How virus differs from worms?"
+            ],
+            "Asked": [
+                "5 marks Asked in 2074",
+                "5 marks Asked in 2075"
+            ]
+        }
+    ]
+}

@@ -126,7 +126,7 @@ class WebScraper:
             # all_subs = data_soup.find_all("li", class_="m-1")
             # subject_url = {}
             # for subject in all_subs:
-            #     subject_url[subject.a.text.strip().split("\n")[0]]= subject.a["href"].split("/").pop().strip()
+            #     subject_url[subject.a.text.strip().split("\n")[0].replace(" ",'')]= subject.a["href"].split("/").pop().strip()
 
             # json_str = json.dumps(subject_url, indent=4)
             # with open("subjects.json", "w") as file:
@@ -137,15 +137,15 @@ class WebScraper:
                 subject_url = json.load(file)
 
 
-            # for selected_subject in subject_url.keys():
-            #     print(selected_subject)
-            #     subject_url_str = subject_url[selected_subject]  # Use a different variable here
-            #     print("Scraping questions for", selected_subject)
-            #     url = f"https://www.collegenote.net/old-question/{subject_url_str}/unit-wise-questions"
-            #     print(url)
-            #     batches = self.get_all_questions_collegenote(url)
-            #     folder_path = "questions_json/"  # Replace with the desired folder path
-            #     self.write_json_file(batches, selected_subject, folder_path)
+            for selected_subject in subject_url.keys():
+                print(selected_subject)
+                subject_url_str = subject_url[selected_subject]  # Use a different variable here
+                print("Scraping questions for", selected_subject)
+                url = f"https://www.collegenote.net/old-question/{subject_url_str}/unit-wise-questions"
+                print(url)
+                batches = self.get_all_questions_collegenote(url)
+                folder_path = "questions_json/"  # Replace with the desired folder path
+                self.write_json_file(batches, selected_subject, folder_path)
 
             # Display the menu and get user's choice
             terminal_menu = TerminalMenu(list(subject_url.keys()))

@@ -1,0 +1,95 @@
+{
+    "subject": "AdvancedNetworkingwithIPv6",
+    "questions": [
+        {
+            "Chapter": "Unit 1: Networking Protocols \n                                            \n\n                                                24 Questions",
+            "Question": [
+                "1. Explain the OST model and its applications.",
+                "1. What do you mean by networking protocols? Mention the OSI model.",
+                "1. Define OSI model. Explain the Undirectional Link Routing.",
+                "2. Explain the IPv6 and its features.",
+                "2. Explain the history of IPv and adressing of IPv.",
+                "2. Explain the features of IPv6 and its adressing.",
+                "3. Explain the ICMP error and also explain explain the information message types.",
+                "3. What do you mean by neighbor discovery processes? Explain the MTU discovery.",
+                "3. Explain the ICPv6 message format with example.",
+                "4. Explain the security features and quality of services in IPv6.",
+                "4. Explain the IPSEC framework and QoS paradigms.",
+                "4. Explain the security techniques and QOS paradigms.",
+                "5. What do you mean by PIM-SM and DVMRP for IPv6? Explain.",
+                "5. What do you mean by IPv6 routing? Explain the OSPE\u00a0 for IPv6.",
+                "5. Explain the OSPF for IPv6.",
+                "6. Explain the migration strategies from IPv4 to IPv6.",
+                "6. Explain the migration strategies from IPv4 to IPv6.",
+                "6. Differentiate between automatic tunneling and configured tunneling.",
+                "7. Explain the process of IPv6 Network configuration to LInux and windows machines.",
+                "7. How can you configure IPv6 network in Linux and windows machines? Explain.",
+                "7. What are the migration strategies from IPv4 to IPv6.",
+                "8. Write short notes on(any two):a) Acyastb) MLDc) Threats\u00a0d) DVMRPe) Dual Stack",
+                "8. Short notes on (any two):(a) Tunneling(b) NAT_PT(c) IPv6 deployment(d) OSPF for IPv6(e) MLD",
+                "8. Explain the process of IPv6 Network configuration in Linux."
+            ],
+            "Asked": [
+                "6 marks Asked in 2073",
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2071",
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2073",
+                "6 marks Asked in 2071",
+                "6 marks Asked in 2073",
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2071",
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2071",
+                "6 marks Asked in 2073",
+                "6 marks Asked in 2071",
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2073",
+                "6 marks Asked in 2071",
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2073",
+                "6 marks Asked in 2071",
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2073",
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2071",
+                "6 marks Asked in 2073"
+            ]
+        },
+        {
+            "Chapter": "Unit 1: Introduction to Networking \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 2: Next Generation Internet \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 3: ICMPv6 and Neighbor Discovery \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 4: Security and Quality of Service in IPv6 \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 5: IPv6 Routing \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 6: IPv4/IPv6 Transition Mechanisms \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 7: IPv6 Network and Server Deployment \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "subject": "MicroprocessorBasedDesign",
+    "questions": [
+        {
+            "Chapter": "Unit 1: Introduction to Microcontroller \n                                            \n\n                                                12 Questions",
+            "Question": [
+                "1. Explain 8051 block diagram and also highlight on its unique features. (10)",
+                "2. What are different interfacing techniques of a microcontroller? Explain (10)",
+                "3. Explain about various types of addressing modes. (10)",
+                "4. Highlight on the functionality of CAN protocol layer.(5)",
+                "5. Explain various serial data transmission modes of 8051. (5)",
+                "6. Explain on the basics of PCB design. (5)",
+                "7. Differentiate between serial and parallel bus systems.(5)",
+                "8. What are the basic features of ARM.? Discuss on its applicability. (3+2)",
+                "9. Explain about various Timer modes of 8051. (5)",
+                "10. What are the major roles of Instruction Set? Explain Instruction Set Architecture.(2+3)",
+                "11. Differentiate between sensors and actuators. Explain various types of noises. (5)",
+                "12. Write short notes on: (2 \u00d72.5 = 5)a. PCIb. Shielding"
+            ],
+            "Asked": [
+                "10 marks Asked in ModelQuestion",
+                "10 marks Asked in ModelQuestion",
+                "10 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion"
+            ]
+        },
+        {
+            "Chapter": "Unit 2: Sensors and Actuators \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 3: Bus and Communication Technology \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 4: Introduction to 8051 Microcontroller and Programming \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 5: Electromagnetic Interference and Compatibility \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        }
+    ]
+}

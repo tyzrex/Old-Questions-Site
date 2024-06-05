@@ -1,0 +1,325 @@
+{
+    "subject": "ComputerGraphics",
+    "questions": [
+        {
+            "Chapter": "Unit 1: Introduction of Computer Graphics \n                                            \n\n                                                13 Questions",
+            "Question": [
+                "1. What is the random scan system? Explain the operation of random scan with architecture.",
+                "1. What is a computer graphics? Explain in detail about the application of computer graphics.",
+                "1. Define a computer graphics and its applications.",
+                "1. What is a raster scan display system? Draw its block diagram and explain it in detail.",
+                "1. What is raster scan display system? Explain with its architecture.",
+                "1. Explain the random scan display system with its advantages and disadvantages.",
+                "1. What is a computer graphics? Briefly explain the applications of computer graphics.",
+                "4. Differentiate between vector and raster graphics.",
+                "7. Consider a raster scan system having 12 inch by 10 inch screen with resolution of 100 pixels per inch in each direction. If the display controller of this system refreshes the screen at the rate of 50 frames per second, how many pixels could be accessed per second and what is the access time per second and what is the access time pre pixels of the system?(6)",
+                "8. Define the following terms (any two):a) Video controllerb) 3D viewingc) Raster graphicsd) List priority",
+                "8. Calculate the total memory required to store a 10 minute video in a SVGA system with 24 bit true color and 25 fps.",
+                "9. Consider 1024 pixels X 1024 scan lines image with 24-bit true color. If 10 minutes video is required to capture, calculate the total memory required? How can you incorporate shadow in the computer graphics?",
+                "9. Consider 256 pixel X 256 scan lines image with 24-bit true color. If 10 minutes video is required to capture,calculate the total memory required? Why intensity assignment is required?"
+            ],
+            "Asked": [
+                "6 marks Asked in 2070",
+                "6 marks Asked in 2067",
+                "6 marks Asked in 2071",
+                "6 marks Asked in 2068",
+                "6 marks Asked in 2073",
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2072",
+                "5 marks Asked in 2077",
+                "6 marks Asked in 2074",
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2073",
+                "6 marks Asked in 2068",
+                "6 marks Asked in 2067"
+            ]
+        },
+        {
+            "Chapter": "Unit 2: Scan Conversion Algorithm \n                                            \n\n                                                18 Questions",
+            "Question": [
+                "1. Digitize the endpoint (10, 18), (15, 8) using Bresenham's algorithm.(6)",
+                "1. List the major difference between DDA and Bresenham's Line drawing algorithm. Illustrate the DDA algorithm to the line with end points (2, 2) and (9, 2).\u00a0 \u00a0 (3+7)",
+                "2. Use Bresenham's algorithm to draw a line having end points (25, 20) and (15, 10).",
+                "2. Write a procedure to fill the interior of a given ellipse with a specified pattern.",
+                "2. Explain the scan conversion algorithms with example.",
+                "2. Derive the equation to draw a line using DDA algorithm when slope is greater than 1.",
+                "3. Derive the expression for Bresenham Line Drawing Application.",
+                "4. Derive the Mid-point algorithm.",
+                "4. How can you draw circle using mid-point circle algorithm? Explain with algorithm.",
+                "5. How can you draw circle? Explain it with algorithm.",
+                "5. How can a circle be scan converted using the mid point approach? How can the same goal be achieved if the starting point is (r, 0) and moving in the anti clockwise direction.",
+                "5. What is a digital differential analyzer (DDA)? How can you draw the line using this algorithm?",
+                "5. Plot the 1st octant of a circle centered at origin, having the radius 10 units.",
+                "7. How would you digitize a line with end points A(6, 12) and B(10, 5) using Bresenham's line drawing algorithm?",
+                "7. Differentiate between incremental algorithms over DDA with example.",
+                "8. On an average it takes 20 nano seconds for a Raster Graphics system to access the pixel value from the frame buffer and glow the phosphor dot on the screen. If the total resolution of the screen is 640 x 480 will this access rate produce a flickering effect?ORDigitize the octant of the circle with radius r = 7 and center (20, 30).",
+                "5. Trace the Bresenham's Line drawing algorithm for the end points(1, 1) and (8, 5).",
+                "8. Plot the ellipse centered at (0, 0) with radius rx = 8 and ry = 6, using mid point ellipse drawing algorithm."
+            ],
+            "Asked": [
+                "6 marks Asked in 2074",
+                "10 marks Asked in 2077",
+                "6 marks Asked in 2072",
+                "6 marks Asked in 2070",
+                "6 marks Asked in 2071",
+                "6 marks Asked in 2073",
+                "6 marks Asked in 2073",
+                "6 marks Asked in 2072",
+                "6 marks Asked in 2073",
+                "6 marks Asked in 2068",
+                "6 marks Asked in 2075(OldCourse)",
+                "6 marks Asked in 2067",
+                "5 marks Asked in 2078",
+                "6 marks Asked in 2075(OldCourse)",
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2075(OldCourse)",
+                "5 marks Asked in 2075(NewCourse)",
+                "5 marks Asked in 2075(NewCourse)"
+            ]
+        },
+        {
+            "Chapter": "Unit 3: Two-Dimensional Geometric Transformations \n                                            \n\n                                                24 Questions",
+            "Question": [
+                "2. Why homogeneous coordinate are used for transformation computations in computer graphics? Explain.",
+                "2. Derive the window to viewport transformation coefficient matrix. Explain the application of this matrix.",
+                "1. Define window, viewport and viewing transformation. Let ABCD be the regular window with A(20, 20), B(90, 20), C(90, 70),and D(20, 70). Find the region codes for end points and use Cohen Sutherland algorithm\u00a0 to clip the lines P(10, 30) Q(80, 90).",
+                "3. Perform the scaling transformation to the triangle with vertices A(6, 9), B(10, 5), C(4, 3) with scaling factors Sx = 3 and Sy = 2.",
+                "3. Show that two successive reflection about any line passing through the coordinate origins equivalent to a single rotation about the origin.",
+                "3. Differentiate between window port and view port. How are lines grouped into visible, invisible and partially visible categories in 2D clipping? Explain.",
+                "3. After rotating a triangle with vertex A(0, 0), B(1, 7), C(9, 2)in 60 degree anticlockwise about point (10, 10) what will be the new vertex values?",
+                "3. Explain the following term with practical applications.\u00a0\u00a0\u00a0\u00a0a) 3D Rotation\u00a0\u00a0\u00a0\u00a0b) 2D Shear",
+                "4. What do you mean by line clipping? Explain the procedures for line clipping.",
+                "4. Explain in detail about line clipping algorithm and its applications.",
+                "4. Where do you require ellipse clipping algorithm? Explain in detail about ellipse clipping algorithm.",
+                "4. Explain the window to view port transformation with its applications.",
+                "4. How would you reflect an object about a line y = 4x? Explain the steps with the matrices.",
+                "5. Illustrate the windows to view point transformation with an example.ORWrite a procedure to implement highlighting as a blinking operation.",
+                "5. Translate a triangle ABC with co-ordinates A(0, 0), B(5, 0) and C(5, 5) by 2 units in x-direction and 3 units in y-direction.",
+                "8. Find the composite transformation matrix for reflection about a line y = mx + c.(6)",
+                "7. What do you mean by homogeneous coordinates? Rotate a triangle A(5,6), B(6,2) and C(4,1) by 45 degree about an arbitrary pivot point (3,3).ORExplain in detail about Diffuse Reflection model.",
+                "7. Derive the window to viewport transformation coefficient matrix. Explain the application of this matrix.OR\u00a0\u00a0\u00a0\u00a0What are blobby objects? How it is represented? Explain the wireframe representation of 3D objects.",
+                "7. Find the new co-ordinate of the triangle ABC, with co-ordinates A(0,0), B(1,1) and C(5,2) after it has been magnified to twice of its size.",
+                "9. Explain polygon clipping in detail. By using the Sutherland-Hodgemen Polygon clipping algorithm clip the following polygon.",
+                "9. What is the differences between a window and a viewport? Why is required to map an object from a window to a viewport? Explain",
+                "9. Given a clipping window P(0,0), Q(30,20), S(0,20) use the Cohen Sutherland algorithm to determine the visible portion of the line A(10,30) and B(40,0).",
+                "11. Describe the requirement for line clipping. Explain the scan line polygon filling algorithm.\u00a0 \u00a0 (1+4)",
+                "11. Let ABCD be the rectangular window with A(0 , 0), B(10, 0), C(10, 10) and D(0, 10). Use Liang Barsky line clipping algorithm to clip the line XY, where X(-5, 3) and Y(15, 9)."
+            ],
+            "Asked": [
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2067",
+                "10 marks Asked in 2075(NewCourse)",
+                "6 marks Asked in 2074",
+                "6 marks Asked in 2070",
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2075(OldCourse)",
+                "6 marks Asked in 2067",
+                "6 marks Asked in 2070",
+                "6 marks Asked in 2067",
+                "6 marks Asked in 2068",
+                "6 marks Asked in 2071",
+                "6 marks Asked in 2075(OldCourse)",
+                "6 marks Asked in 2070",
+                "5 marks Asked in 2077",
+                "6 marks Asked in 2074",
+                "6 marks Asked in 2072",
+                "6 marks Asked in 2073",
+                "5 marks Asked in 2078",
+                "6 marks Asked in 2073",
+                "6 marks Asked in 2075(OldCourse)",
+                "6 marks Asked in 2072",
+                "5 marks Asked in 2078",
+                "5 marks Asked in 2077"
+            ]
+        },
+        {
+            "Chapter": "Unit 4: Three-Dimensional Geometric Transformation \n                                            \n\n                                                11 Questions",
+            "Question": [
+                "1. Define orthographic, parallel and perspective projections. Consider a region defined by the position vector\u00a0, relative to global XYZ axis system. It is rotated by +300 about X-axis and passing through point (1.5, 1.5, 1.5). Find the final position of the region.\u00a0 \u00a0 (3+7)",
+                "1. Differentiate between parallel and perspective protection.",
+                "2. How can you represent 3D viewing? Explain it with equation and practical application.",
+                "3. Explain the following terms with practical applications.(a) 3D Translation(b) 2D Mirror",
+                "3. Explain the 2D and 3D transformations.",
+                "6. Define window and view port. Describe three dimension windows to view port transformation with matrix representation for each step.(2+4)",
+                "6. Explain the following term with practical applications.a) 2D shearingb) 3D viewing",
+                "6. Differentiate between orthographic, parallel and perspective projections.",
+                "8. What is projection? Differentiate between parallel and prospective projection.",
+                "10. Digitize an ellipse with center (20, 20) and x-radius = 8 and y- radius = 6.(6)ORFind the new co-ordinates of a unit cube 90 degree rotated about an axis defined by its end points A(2, 1, 0) and B(3, 3, 1).",
+                "6. Derive the relation for three- dimensional translation and rotation."
+            ],
+            "Asked": [
+                "10 marks Asked in 2078",
+                "6 marks Asked in 2075(OldCourse)",
+                "6 marks Asked in 2068",
+                "6 marks Asked in 2068",
+                "6 marks Asked in 2071",
+                "6 marks Asked in 2074",
+                "6 marks Asked in 2072",
+                "5 marks Asked in 2077",
+                "6 marks Asked in 2072",
+                "6 marks Asked in 2074",
+                "5 marks Asked in 2075(NewCourse)"
+            ]
+        },
+        {
+            "Chapter": "Unit 5: 3D Objects Representation \n                                            \n\n                                                18 Questions",
+            "Question": [
+                "2. How polygon table is used in representing polygon? Explain the representations of any three curves.\u00a0 \u00a0 (6+4)",
+                "4. Explain about parametric cubic curve. Describe the properties of Bezier curve.(3+3)",
+                "3. Construct the Bezier curve of order 3 and 4 polygon vertices A(1,1) B(2,3) C(4,3) and D(6,4).",
+                "4. Define polygon. What are the different types of polygons? Explain with example.",
+                "4. Discuss the strength and weakness of the human visual system. Describe Spline representation for the curve.",
+                "5. Differentiate between periodic B-spline curves and non-periodic B-spline curves.",
+                "5. Explain with algorithm of generating curves.",
+                "6. Set up a procedure for establishing polygon tables for any input set of data points defining an object.",
+                "6. How can you represent 3D object? How can you draw the line using this algorithm?",
+                "6. Explain in detail about polygon table. How can you apply in the case of virtual reality?",
+                "6. Why polygon description is consider as standard graphics objects? Explain the importance of polygon table.",
+                "7. Model the Bezier curve. Explain the importance of Bezier curve in graphical modeling.ORWrite a procedure to perform a two-point perspective projection of an object.",
+                "7. How curves be generated? Explain it with any suitable algorithm.",
+                "6. Define fractal. Explain the Bezier curve and B-Spline curve.",
+                "9. Construct the polygon table for a object with six vertex, eight edge and three surface.(6)ORExplain the role of computer graphics on animation. Define clipping operation with example.(3+3)",
+                "8. Define the following terms (any two):a) 3D viewingb) Polygon Messesc) Boundary Representationd) Sweep Representation",
+                "7. What is the purpose of wireframe\u00a0 representation? Describe about boundary and space partitioning.",
+                "9. Define clipping. Discuss about cubic spline Interpolation."
+            ],
+            "Asked": [
+                "10 marks Asked in 2077",
+                "6 marks Asked in 2074",
+                "6 marks Asked in 2072",
+                "6 marks Asked in 2069",
+                "5 marks Asked in 2078",
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2071",
+                "6 marks Asked in 2071",
+                "6 marks Asked in 2067",
+                "6 marks Asked in 2068",
+                "6 marks Asked in 2070",
+                "6 marks Asked in 2070",
+                "6 marks Asked in 2067",
+                "5 marks Asked in 2078",
+                "6 marks Asked in 2074",
+                "6 marks Asked in 2071",
+                "5 marks Asked in 2075(NewCourse)",
+                "5 marks Asked in 2075(NewCourse)"
+            ]
+        },
+        {
+            "Chapter": "Unit 6: Solid Modeling \n                                            \n\n                                                5 Questions",
+            "Question": [
+                "2. What is the method to recognize boundary point and interior point in solid modeling? Describe how BSP recursively subdivided a space into convex sets.\u00a0 \u00a0 (4+6)",
+                "3. Describe the architecture of raster scan display. Explain about sweep, octree and boundary representations for solid modeling.",
+                "7. What do you mean by solid modeling? Explain the process for solid modeling with example.",
+                "7. Describe how a polygon can be represented using BSP tree with example.",
+                "8. What is solid modeling? Explain the basic procedures for solid modeling."
+            ],
+            "Asked": [
+                "10 marks Asked in 2078",
+                "10 marks Asked in 2075(NewCourse)",
+                "6 marks Asked in 2068",
+                "5 marks Asked in 2077",
+                "6 marks Asked in 2070"
+            ]
+        },
+        {
+            "Chapter": "Unit 7: Visible Surface Detections \n                                            \n\n                                                13 Questions",
+            "Question": [
+                "2. What are the object space and image space method of hidden surface removal? Describe the back face detection method of hidden surface removal.(6)",
+                "2. List any two disadvantages of BSP tree method in visible surface detection. Make a comparision between Painter's algorithm and A- Buffer algorithm.",
+                "5. Explain the scan line algorithm for removing hidden surfaces.",
+                "6. Explain the z-buffer algorithm for removing hidden faces?",
+                "7. Define the algorithms for visible surface detection.",
+                "8. Explain in detail about plain equation method. Explain which algorithm is better for hidden surfaceremoval.ORExplain in detail about depth buffer method. Justify that is better than plane equation method.",
+                "8. Hidden surface removal is required in computer graphics is very important, justify it. Explain in detail about scan line method.ORExplain in detail about scan line method. Justify that it is better than plane equation method.",
+                "8. What is the task of polygon table? Why we have to remove hidden surface? Explain with any one methodology?\u00a0 \u00a0 (2+3)",
+                "8. What is the role of ray tracing in visible surface detection? Explain how scan line algorithm is used for back face detection.\u00a0 \u00a0 \u00a0 \u00a0 (1+4)",
+                "9. Explain the area subdivision method for visible surface detection.",
+                "9. Explain the visible surface detection with an algorithms.",
+                "10. What is the significance of vanishing points in perspective Projection? Explain how Z- Buffer algorithm is used for visible surface detection.ORExplain boundary representations techniques to represent the 3D object with suitable example.",
+                "10. What is the advantage of real time rendering over offline rendering? Discuss the limitation of Z-Buffer algorithm.\u00a0 \u00a0 (2.5+2.5)"
+            ],
+            "Asked": [
+                "6 marks Asked in 2074",
+                "10 marks Asked in 2075(NewCourse)",
+                "6 marks Asked in 2073",
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2071",
+                "6 marks Asked in 2067",
+                "6 marks Asked in 2068",
+                "5 marks Asked in 2078",
+                "5 marks Asked in 2077",
+                "6 marks Asked in 2070",
+                "6 marks Asked in 2071",
+                "6 marks Asked in 2075(OldCourse)",
+                "5 marks Asked in 2078"
+            ]
+        },
+        {
+            "Chapter": "Unit 8: Illumination Models and Surface Rendering Techniq \n                                            \n\n                                                10 Questions",
+            "Question": [
+                "2. Compare and contrast between Gouraud and phong shading model.",
+                "3. Define realism in human perception. What is the significance difference between rendering and image synthesis in creating computer generated 3D image? Describe any two polygon rendering methods.\u00a0 \u00a0 (2+2+6)",
+                "5. Explain the visual effect that occurs when during animation of a Gouraud shading polyhedron, the center of a highlight moves from one vertex to another along an edge.(6)ORIllustrate the difference between orthographic (parallel) and perspective projection.(6)",
+                "9. Explain the simple illumination model with example.ORExplain the Gourand shading model with example.",
+                "10. Why shedding is required in the computer graphics? Explain in detail about constant intensity shading.ORList the different type of shading models. Explain in detail about Gouraud shading model.",
+                "9. Define intensity attenuation. Distinguish between Gouraud shading and Phong shading model.\u00a0 \u00a0 (2+3)",
+                "10. Differentiate between diffuse reflection and specular reflection. Why do we require shading model? Explain it.ORExplain in detail about Phong shading model. Compare it with Gouraud Shading model.",
+                "10. How can we detect shadows in computer graphics? List the challenged in computing light model.",
+                "12. Define blobby objects. Describe about basic illumination models.\u00a0 \u00a0 (2+3)",
+                "12. What is quadric surface? Compare between diffuse reflection and specular reflection.\u00a0 \u00a0 (2+3)"
+            ],
+            "Asked": [
+                "6 marks Asked in 2075(OldCourse)",
+                "10 marks Asked in 2077",
+                "6 marks Asked in 2074",
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2067",
+                "5 marks Asked in 2078",
+                "6 marks Asked in 2068",
+                "5 marks Asked in 2075(NewCourse)",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2078"
+            ]
+        },
+        {
+            "Chapter": "Unit 9: Introduction to Virtual Reality \n                                            \n\n                                                10 Questions",
+            "Question": [
+                "3. List some significances of virtual reality. Differentiate between virtual reality and augmented reality with example. Demonstrate how a polygon can be created using OpenGL.\u00a0 \u00a0 (2+4+4)",
+                "6. Explain the following term with practical applications.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0a) Rotation\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0b) Computer Animation",
+                "6. What are the key issues prevalent in producing a Virtual reality scene? Explain different hardware and software used for this purpose.",
+                "10. Explain the basic steps for computer animation.",
+                "10. Explain the basic steps for computer animation and its application in computer science.",
+                "10. What is virtual reality? Explain the importance of virtual reality and its application.",
+                "10. What do you mean by virtual Reality and animation? Explain.OR\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Explain the scan line algorithms with example.",
+                "9. How virtual realities differ with our real world? Describe some components of VR system.\u00a0 \u00a0 (2+3)",
+                "10. Explain the virtual reality and its applications in the computer graphics.",
+                "11. List some applications of VR. What might be the possible navigation techniques and manipulating interfaces in virtual reality? Justify."
+            ],
+            "Asked": [
+                "10 marks Asked in 2078",
+                "6 marks Asked in 2073",
+                "6 marks Asked in 2075(OldCourse)",
+                "6 marks Asked in 2070",
+                "6 marks Asked in 2072",
+                "6 marks Asked in 2073",
+                "6 marks Asked in 2071",
+                "5 marks Asked in 2077",
+                "6 marks Asked in 2069",
+                "5 marks Asked in 2075(NewCourse)"
+            ]
+        },
+        {
+            "Chapter": "Unit 10: Introduction to OpenGL \n                                            \n\n                                                3 Questions",
+            "Question": [
+                "4. Give some basic color model. Give the basic command to draw the pixel and polygon in OpenGL.",
+                "10. Write a procedure to draw a line in OpenGL? Describe Painter's algorithm.\u00a0 \u00a0 (2+3)",
+                "12. Mention any two color command in OpenGL. Explain about Hermite curve."
+            ],
+            "Asked": [
+                "5 marks Asked in 2075(NewCourse)",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2075(NewCourse)"
+            ]
+        }
+    ]
+}

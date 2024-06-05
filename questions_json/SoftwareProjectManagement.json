@@ -1,0 +1,298 @@
+{
+    "subject": "SoftwareProjectManagement",
+    "questions": [
+        {
+            "Chapter": "Unit 1: Introduction to Software Project Management \n                                            \n\n                                                41 Questions",
+            "Question": [
+                "1. Perform Earned Value Analysis of the given project.(10)The progress after the end of 12th day is as follows:Calculate SV, SPI,CV and CPI respectively.",
+                "1. Outline the contents of a Software Project Management plan and explain in detail.",
+                "1. Explain the important activities that a software project manager performs during software project planning.",
+                "1. What is project? Explain different phases of project planning.",
+                "1. Explain the software engineering problem. What do you mean by software project management? Explain.",
+                "1. Explain the project management cycle. What are the five competencies of project management skills? Explain",
+                "1. Explain about software product attributes.Explain the project management cycle and SPM framework.",
+                "1. What is software project management? How software project differs from other projects?",
+                "2. Differentiate between programme management and portfolio management. Define Payback period. How can it be used as an evaluation technique? What are its advantages and disadvantages?(5+2+1+2)",
+                "3. Suppose you have been assigned to develop online voting system. List four risks that might affect the success of the system. Rank the risks based on Risk exposure. Develop contingency plan for the highest ranked risk.(2+6+2)",
+                "2. Differentiate between project life cycle. What do you mean by project planning and scheduling.",
+                "3. Explain the software configuration management with its roles and tasks.",
+                "4. Calculate ROI for the following project.(5)",
+                "4. Explain the SPM framework.",
+                "4. List out the activities used in SPM.",
+                "4. Explain about SPM framework.",
+                "4. What do you mean by SPM framework?",
+                "4. What do you mean by SPM framework?",
+                "4. What do you mean by Software Project Management? In what ways software projects are different from other types of projects?",
+                "4. Explain the various steps involved in stepwise project planning?",
+                "5. Differentiate between activity-based approach and hybrid-based approach for identifying activities.(5)",
+                "5. Explain the process of analysis the cost benefit in project evaluation.",
+                "6. Why software project management is a challenging activity?(5)",
+                "6. Explain the contents list of project plan.",
+                "6. Explain the rapid application development.",
+                "7. Draw precedence network diagram for the following and identify the critical path.",
+                "8. Explain Maslow's hierarchy of needs.(5)",
+                "7. What are the factors needed for allocating a task? Explain.",
+                "9. Briefly explain different quality factors.(5)",
+                "9. Write the goal of software project planning.",
+                "10. Explain the process of Software Configuration Management.(5)",
+                "8. Discuss about change control with example.",
+                "9. Explain about the selecting the right person for the job.",
+                "10. What are the four major activities involved in project management? Explain.",
+                "11. Different between Gantt chant and slip chart.(5)",
+                "14. Write short notes on:a. Present worthb. PERT chart",
+                "10. Explain the major sections of a Software Quality Assurance plan.",
+                "11. Explain the process of effort estimation using function point analysis with example.",
+                "13. Write short notes on:a. SPM softwareb. Critical Path",
+                "12. What are the advantages and disadvantages of COCOMO?",
+                "13. Write short notes on:(a) SQA plan(b) SPM tools"
+            ],
+            "Asked": [
+                "10 marks Asked in 2078(NewCourse)",
+                "10 marks Asked in 2075",
+                "10 marks Asked in 2076",
+                "10 marks Asked in 2070",
+                "10 marks Asked in 2072",
+                "10 marks Asked in 2073",
+                "10 marks Asked in 2077",
+                "10 marks Asked in 2074",
+                "10 marks Asked in 2078(NewCourse)",
+                "10 marks Asked in 2078(NewCourse)",
+                "10 marks Asked in 2077",
+                "10 marks Asked in 2077",
+                "5 marks Asked in 2078(NewCourse)",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2074",
+                "5 marks Asked in 2076",
+                "5 marks Asked in 2070",
+                "5 marks Asked in 2072",
+                "5 marks Asked in Model",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2078(NewCourse)",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2078(NewCourse)",
+                "5 marks Asked in 2076",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2078(NewCourse)",
+                "5 marks Asked in 2078(NewCourse)",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2078(NewCourse)",
+                "5 marks Asked in 2073",
+                "5 marks Asked in 2078(NewCourse)",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2070",
+                "5 marks Asked in 2078(NewCourse)",
+                "5 marks Asked in 2078(NewCourse)",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2074",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2077"
+            ]
+        },
+        {
+            "Chapter": "Unit 2: Project Analysis \n                                            \n\n                                                6 Questions",
+            "Question": [
+                "1. What are different steps of Project Planning? Describe activities in each step.",
+                "2. How are the software project is different from other project. Explain the different phases of software project life cycle.",
+                "5. Differentiate between project life cycle and product life cycle.",
+                "5. Explain the product life cycle.",
+                "5. Explain the product life cycle.",
+                "13. Write short notes on:(a) Project schedule(b) Test plan"
+            ],
+            "Asked": [
+                "10 marks Asked in Model",
+                "10 marks Asked in 2076",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2070",
+                "5 marks Asked in 2072",
+                "5 marks Asked in 2073"
+            ]
+        },
+        {
+            "Chapter": "Unit 3: Activity Planning and Scheduling \n                                            \n\n                                                20 Questions",
+            "Question": [
+                "2. What do you mean by rapid application development? Differentiate between spiral models and prototyping model.",
+                "2. Explain in the cost benefit analysis in details. Explain the evaluation techniques of cost benefits.",
+                "2. Differentiate between strategic Assessment and technical assessment. Explain the steps involved in cost benefit analysis?",
+                "3. Explain the risk type and also explain in details how will you managing risks.",
+                "3. Mention at least five examples of software development projects that would require prototyping. Explain each of them.",
+                "3. Why are process Capability Models more effective than product matrices? Describe any 3 capability models in detail",
+                "4. Define the terms: Net profit value and pay-back period.",
+                "5. Explain cost benefit evaluation techniques.",
+                "5. Explain the use of decision tree in Risk Evaluation.",
+                "5. Differentiate between rapid application development and waterfall model.",
+                "5. Explain the role of cost estimation in software development project.",
+                "6. What do you mean by cash flow forecasting?",
+                "6. Comparison between waterfall model with spiral model.",
+                "6. Briefly explain about risk planning and controlling.",
+                "6. Explain the cost-benefit evaluation techniques.",
+                "7. Explain the process of collecting the data.",
+                "7. Differentiate between risk planning and risk reduction.",
+                "9. Mention atleast seven deliverables in a software project",
+                "11. Explain the three modes of the basic COCOMO model.",
+                "12. Discuss the role of cost estimation in software development project."
+            ],
+            "Asked": [
+                "10 marks Asked in 2072",
+                "10 marks Asked in 2070",
+                "10 marks Asked in 2074",
+                "10 marks Asked in 2074",
+                "10 marks Asked in 2073",
+                "10 marks Asked in Model",
+                "5 marks Asked in 2073",
+                "5 marks Asked in Model",
+                "5 marks Asked in 2074",
+                "5 marks Asked in 2076",
+                "5 marks Asked in 2073",
+                "5 marks Asked in 2070",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2074",
+                "5 marks Asked in 2072",
+                "5 marks Asked in 2074",
+                "5 marks Asked in 2076",
+                "5 marks Asked in 2070",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2070"
+            ]
+        },
+        {
+            "Chapter": "Unit 4: Risk Management \n                                            \n\n                                                9 Questions",
+            "Question": [
+                "2. Explain in detail about critical path scheduling method with example.",
+                "2. The table below is an example of project specification with estimated activity duration and precedence requirements:Activity NameActivity NameDuration (Weeks)PrecedentsAHardware Selection6BSystem Configuration4CInstall Hardware3DData Migration4AEDraft Office Procedures3BFRecruit Staff10GUser Training3E,FHInstall and test system2C,DFind the critical path of the project and calculate the earliest completion time of the project.",
+                "6. Why is it necessary to plan the activities?",
+                "7. Explain the network planning model with example.",
+                "7. Explain the objectives of activity planning.",
+                "8. Explain the Gantt Charts in Scheduling with example.",
+                "8. Describe the major workflows involved in software development.",
+                "9. How network chart help in scheduling a project?",
+                "10. Explain the critical path with example."
+            ],
+            "Asked": [
+                "10 marks Asked in 2075",
+                "10 marks Asked in Model",
+                "5 marks Asked in Model",
+                "5 marks Asked in 2072",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2076",
+                "5 marks Asked in 2076",
+                "5 marks Asked in 2076"
+            ]
+        },
+        {
+            "Chapter": "Unit 5: Resource allocation \n                                            \n\n                                                5 Questions",
+            "Question": [
+                "6. Why are PERT/CPM used in software project management? Explain.",
+                "7. Discuss the concept of PERT/CPM in software project management.",
+                "7. What are different types of resources? How do you schedule them in the project?",
+                "8. What do you mean by resource allocation?",
+                "13. Write short notes on:(a) Resource allocation(b) Earned value"
+            ],
+            "Asked": [
+                "5 marks Asked in 2073",
+                "5 marks Asked in 2070",
+                "5 marks Asked in Model",
+                "5 marks Asked in 2072",
+                "5 marks Asked in 2070"
+            ]
+        },
+        {
+            "Chapter": "Unit 6: Monitoring and control \n                                            \n\n                                                6 Questions",
+            "Question": [
+                "8. How do you visualize progress of the project? Explain any two types.",
+                "9. What do you mean by change control?",
+                "11. Explain the visualizing progress in details with example.",
+                "11. Explain the visualizing progress in detail with practical example.",
+                "11. How can we do project monitoring and control? Explain.",
+                "13. Write short notes on:a. Charge Controlb. Software Quality"
+            ],
+            "Asked": [
+                "5 marks Asked in Model",
+                "5 marks Asked in 2072",
+                "5 marks Asked in 2074",
+                "5 marks Asked in 2076",
+                "5 marks Asked in 2070",
+                "5 marks Asked in 2075"
+            ]
+        },
+        {
+            "Chapter": "Unit 7: Managing Contracts and people \n                                            \n\n                                                6 Questions",
+            "Question": [
+                "8. How you can select the right person for the job? Explain.",
+                "9. What are the roles of Software Engineer in a project? Explain.",
+                "9. Describe the typical terms of a contract.",
+                "10. Explain the typical terms of contract? Mention the different types of people in the team in the software project management.",
+                "10. What are the stages of Team formation model?",
+                "12. What are different types of people in a team? Explain various stages a team passes through."
+            ],
+            "Asked": [
+                "5 marks Asked in 2074",
+                "5 marks Asked in 2075",
+                "5 marks Asked in Model",
+                "5 marks Asked in 2072",
+                "5 marks Asked in 2073",
+                "5 marks Asked in Model"
+            ]
+        },
+        {
+            "Chapter": "Unit 8: Software quality assurance and testing \n                                            \n\n                                                16 Questions",
+            "Question": [
+                "2. What are the five maturity level of CMM? Differentiate between leaders and managers.",
+                "3. Explain the various maturity levels of SEI CMM and also discuss the key process areas for each level.",
+                "3. Explain the different techniques for enhancing the quality of software project.",
+                "3. Explain the SEI Capability Maturity Model (CMM) and SQA plan.",
+                "7. Explain the software quality factors.",
+                "8. Explain the QA organizational structure.",
+                "8. Explain the SEI capability maturity model (CMM).",
+                "9. Define software quality and its importance.",
+                "10. Describe Verification and Validation of the Program.",
+                "11. Explain the quality assurance plan",
+                "11. What do you mean by verification and validation? Explain with example.",
+                "12. Write short notes on:(a) Visualizing progress(b) Test strategies",
+                "12. Explain the SQA plan with example.",
+                "12. Explain the program verification and validation with example.",
+                "13. Write short notes on:a.Test Planb. Change Control",
+                "13. Write short notes on:a. SQA planb. SPM tools"
+            ],
+            "Asked": [
+                "10 marks Asked in 2073",
+                "10 marks Asked in 2075",
+                "10 marks Asked in 2076",
+                "10 marks Asked in 2070",
+                "5 marks Asked in 2073",
+                "5 marks Asked in 2070",
+                "5 marks Asked in 2073",
+                "5 marks Asked in 2074",
+                "5 marks Asked in Model",
+                "5 marks Asked in 2073",
+                "5 marks Asked in 2072",
+                "5 marks Asked in 2072",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2073",
+                "5 marks Asked in Model",
+                "5 marks Asked in 2076"
+            ]
+        },
+        {
+            "Chapter": "Unit 9: Software Configuration Management \n                                            \n\n                                                6 Questions",
+            "Question": [
+                "3. Explain the software configuration management and its tasks and roles.",
+                "10. Explain about SCM tasks and tools.",
+                "10. Explain the function of software configuration management.",
+                "11. What do you mean by configuration management? Write its importance in a software project.",
+                "12. Explain the software configuration management and its roles.",
+                "12. Explain the software configuration management with example."
+            ],
+            "Asked": [
+                "10 marks Asked in 2072",
+                "5 marks Asked in 2074",
+                "5 marks Asked in 2075",
+                "5 marks Asked in Model",
+                "5 marks Asked in 2074",
+                "5 marks Asked in 2076"
+            ]
+        }
+    ]
+}

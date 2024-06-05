@@ -1,0 +1,135 @@
+{
+    "subject": "StatisticsII",
+    "questions": [
+        {
+            "Chapter": "Unit 1: Sampling Distribution and Estimation \n                                            \n\n                                                7 Questions",
+            "Question": [
+                "1. Describe the concept of sampling distribution of mean with reference to the population data (20, 21, 22 & 23) of size 4. In order to explain this, perform simple random sampling with replacement taking all possible samples with sample size n =2. While describing the sampling distribution following issues will be covered.I. Population mean & population variance, and its distributionII. Sample mean & sample variance, and its distributionIII. Comparison of population mean and sample mean; population variance and sample variance; population distribution and sampling distribution based on the given data.IV. Standard error of meanV. Final comments based on your result.",
+                "2. Explain the sampling distribution of mean with reference to some numerical example. Illustrate the practical implications of Central Limit Theorem (CLT) in inferential statistics?",
+                "4. In order to ensure efficient usage of a server, it is necessary to estimate the mean number of concurrent users. According to records, the average number of concurrent users at 100 randomly selected times is 37.7, with a sample standard deviation of 9.2. At the 1% level of significance, do these data provide considerable evidence that the mean number of concurrent users is greater than 35? Draw your conclusion based on your result.",
+                "5. A survey was conducted among 70 students studying B.Sc. CSIT in some colleges randomly. Among them 50 students secured more than 80% marks in Statistics. Compute 99% and 95% confidence interval for the population proportion of students who secured more than 80% marks in the subject Statistics, and comment on the results.",
+                "6. A study of 1000 computer engineers conducted by their professional organization reported that 300 stated that their firms' greatest concern was to uplift the professional quality of work. In order to conduct a follow up study to estimate the population proportion of computer engineers to fulfill their greatest concern within\u00a0\u00b10.01 with 99% confidence interval, how many computer engineers would be required to be surveyed?",
+                "6. Determine the minimum sample size required so that the sample estimate lies within 10% of the true value 95% level of confidence when coefficient of variation is 60%.",
+                "7. A manufacturer of computer paper has a production process that operates continuously throughout an entire production shift. The paper is expected to have an average length of 11 inches and standard deviation is known to be 0.01 inch. Suppose random sample of 100 sheets is selected and the average paper length is found to be 10.68 inches. Set up 95% and 90% confidence interval estimate of the population average paper length."
+            ],
+            "Asked": [
+                "10 marks Asked in 2077",
+                "10 marks Asked in 2078",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2078",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2075"
+            ]
+        },
+        {
+            "Chapter": "Unit 2: Testing of hypothesis \n                                            \n\n                                                7 Questions",
+            "Question": [
+                "1. Suppose a population of 4 computers with their lifetimes 3, 5, 7 & 9 years. Comment on the population distribution. Assuming that you sample with replacement, select all possible samples of n = 2, and construct sampling distribution of mean and compare the population distribution and sampling distribution of mean. Compare population mean versus mean of all sample means, and population variance versus variance of sample means and comment on them with the support of theoretical consideration if any.",
+                "3. What do you mean by hypothesis? Describe null and alternative hypothesis. A company claims that its light bulbs are superior to those of the competitor on the basis of study which showed that a sample of 40 of its bulbs had an average life time 628 hours of continuous use with a standard deviation of 27 hours. While sample of 30 bulbs made by the competitor had an average life time 619 hours of continuous use with a standard deviation of 25 hours. Test at 5% level of significance, whether this claim is justified.",
+                "4. The following are the details of working hours in class room per week of male and female faculty working in the area of Computer Science and Information Technology of Tribhuvan University.\u00a0\u00a0\u00a0\u00a0Apply independent t-test to examine whether the average working hour in class room per week is significant different between male and female faculty, at 1% level of significance. State also null and alternative hypothesis appropriately.",
+                "4. A dealer of a DELL company located at New Road claimed that the average lifetime of a multimedia projector produced by Dell Company is greater than 60,000 hours with standard deviation of 6000 hours. In order to test his claim, sample of 100 DELL projectors are taken and the average life time was monitored and it was found to be 55,000 hours. Test the claim of the dealer at 5% level of significance.",
+                "5. A sample of 250 items from lot A contains 10 defective items, and a sample of 300 items from lot B is found to contain 18 defective items. At a significance level \u03b1 = 0.05, is there a significant difference between the quality of the two lots?",
+                "6. In location 1, there are 250 corona positive cases out of 460 persons and in location 2, 250 positive cases reported out of 650 persons. Can it be concluded that the proportion of corona positive cases is higher in location 1 compared to location 2? Test at 10% level of significance.",
+                "7. Previous literature has reported that the average age of B.Sc. CSIT enrolling students in Tribhuvan University is 22 years. A researcher has doubts on this information and he feels that the average age to be less than 22 years. In order to examine this, the following sample data were collected randomly from the enrolling students of CSIT.\u00a0\u00a0\u00a0\u00a0Set up null and alternative hypothesis and test whether the researcher doubt will be justified. Use 5% level of significance. Assume that the parent population from which samples are drawn, is normally distributed."
+            ],
+            "Asked": [
+                "10 marks Asked in ModelQuestion",
+                "10 marks Asked in 2075",
+                "5 marks Asked in 2078",
+                "5 marks Asked in 2077",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2078",
+                "5 marks Asked in 2078"
+            ]
+        },
+        {
+            "Chapter": "Unit 3: Non parametric test \n                                            \n\n                                                11 Questions",
+            "Question": [
+                "1. There are three brands of computers namely Dell, Lenovo and HP. The following are the lifetime of 15 computers in years.\u00a0 \u00a0\u00a0Apply appropriate statistical test to identify whether the average life time (in years) is significantly different across three brands of computer at 5% level of significance. You can again tabulate the data initially in the required format for statistical analysis.",
+                "5. Based on he following information, perform the following :\u00a0 \u00a0 I. Test whether two mean are significantly different (\u03b1 = 5%) using independent test.\u00a0 \u00a0 II. Compute 95% confidence interval estimation for the difference of mean.\u00a0 \u00a0 III. Show the linkage between testing of hypothesis and confidence interval estimation in this problem,",
+                "6. Modern email servers and anti-spam filters attempt to identify spam emails and direct them to a junk folder. There are various ways to detect spam, and research still continues. In this regard, an information security officer tries to confirm that the chance for an email to be spam depends on whether it contains images or not. The following data were collected on n = 1000 random email messages.\u00a0\u00a0\u00a0\u00a0Assess whether being spam and containing images are independent factors at 1% level of significance.",
+                "7. A survey was conducted to see the association between hacking status of the email and the type of e-mail account. The survey has reported the following cross tabulation.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Do the information provide sufficient evidence to conduct that the type email account and the hacking status is associated? Use Chi-square test at 1% level of significance.",
+                "5. The following data related to the number of children classified according to the type of feeding and nature of teeth.Do the information provide sufficient evidence to conclude that type of feeding and nature of teeth are dependent? Use chi square test at 5% level of significance.",
+                "7. Two computer makers, A and B, compete for a certain market. Their users rank the quality of computers on a 4-point scale as \u201cNot satisfied\u201d, \u201cSatisfied\u201d, \u201cGood quality\u201d, and \u201cExcellent quality, will recommend to others. The following counts were observed:Is there a significant difference in customer satisfaction of the computers produced by A and by B using Mann-Whitney U test at 5% level of significance.",
+                "8. Apply Mann-Whitney U test for examining the following knowledge score on IT among two groups of IT workers at 5% level of significance?",
+                "9. Use Mann-Whitney U test to assess whether the following satisfaction score based on the performance of two different special types of gadgets at 5% level of significance.",
+                "9. A survey was conducted to see the association between job opportunity status (Yes vs. No) of IT workers and gender. The survey has reported the following details.\u00a0\u00a0\u00a0\u00a0Do the information provide sufficient evidence to conclude that gender is associated with job opportunity status of IT workers? Use Chi-square test at 5% level of significance.",
+                "8. A chemist use three catalyst for distilling alcohol and lay out were tabulated belowAre there any significant differences between catalyst? Test at 5% level of significance. Use Kruskal Walli's H test.",
+                "11. Following are the scores obtained by 10 university staffs on the computer proficiency skills before training and after training. It was assumed that the proficiency of computer skills is expected to be increased after training.\u00a0 \u00a0\u00a0Test at 5% level of significance whether the training is effective to improve the computer proficiency skills applying appropriate statistical test. Assume that the given score follows normal distribution."
+            ],
+            "Asked": [
+                "10 marks Asked in 2078",
+                "5 marks Asked in 2077",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2075",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2078",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2078",
+                "5 marks Asked in 2075",
+                "5 marks Asked in ModelQuestion"
+            ]
+        },
+        {
+            "Chapter": "Unit 4: Multiple correlation and regression \n                                            \n\n                                                5 Questions",
+            "Question": [
+                "2. It was reported somewhere that children whenever plays the game in computer, they used the computer very roughly which may reduce the lifetime of computer. The random access memory (RAM) of computer also plays a crucial role on the lifetime of a computer. A researcher wanted to examine how the lifetime of a personal computer which is used by children is affected by the time (in hours) spends by the children per day to play games and the available random access memory (RAM) measured in megabytes (MB) of a used computer. The data is provided in the following table.Identify which one is dependent variable? Solve this problem using multiple linear regression model and provide problem specific interpretations based on the regression model developed.",
+                "1. What is Multiple Linear Regression (MLR)? From following information of variables X1, X2, and Y.\u00a0\u00a0\u00a0\u00a0\u03a3X1 = 272,\u00a0\u03a3X2= 441,\u00a0\u03a3Y= 147,\u00a0\u03a3X12= 7428,\u00a0\u03a3X22=19461,\u00a0\u03a3Y2 = 2173,\u00a0\u03a3X1Y = 4013,\u00a0\u03a3X1X2\u00a0= 12005,\u00a0\u03a3X2Y = 6485, n=10. Fit a regression equation Y on \u00a0\u00a0\u00a0\u00a0X1 and X2. Interpret the regression coefficients.",
+                "2. A computer manager is keenly interested to know how efficiency of her new computer program depends on the size of incoming data and data structure. Efficiency will be measured by the number of processed requests per hour. Data structure may be measured on how many tables were used to arrange each data set. All the information was put together as follows.\u00a0\u00a0\u00a0\u00a0Identify which one is dependent variable? Fit the appropriate multiple regression model and provide problem specific interpretations of the fitted regression coefficients.",
+                "3. A study was conducted among IT officers working in different IT Centers in Kathmandu valley, one of the objectives of the study was to quantify the effect of age and working hour per day on Computer Vision Syndrome (CVS). The CVS was measured in a continuum measurement scale varying from 0 to 50. Few parts of the data were taken randomly from the surveyed data and provided in the following table for statistical analysis.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Recognize which one is dependent variable? Assuming that the relationship between CVS, age and working hour is linear. Fit a multiple linear regression model to address the objective of the study and interpret the model appropriately.",
+                "4. Suppose we are given following information with n=7, multiple regression model is\u00a0\u00a0\u0176 = 8.15 + 0.6X1\u00a0+ 0.54X2\u00a0Here , Total sum of square = 1493,\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 Sum of square due to error = 91Find i) R2 and interpret it. ii) Test the overall significance of model."
+            ],
+            "Asked": [
+                "10 marks Asked in 2077",
+                "10 marks Asked in 2075",
+                "10 marks Asked in ModelQuestion",
+                "10 marks Asked in 2078",
+                "5 marks Asked in 2075"
+            ]
+        },
+        {
+            "Chapter": "Unit 5: Design of experiment \n                                            \n\n                                                7 Questions",
+            "Question": [
+                "3. State and explain the mathematical model for randomized complete block design. Explain all the steps to be adopted to carry out the analysis, and finally prepare the ANOVA table.",
+                "3. Explain the fundamental concepts of Latin Square Design (LSD) with its necessary conditions. Perform the analysis of variance from the following data and make final comments based on the analysis.",
+                "2. What do you mean by Latin Square Design? Write down its merit and demerit. Set up the analysis of variance for the following result of design.",
+                "10. State mathematical model for Statistical analysis of m x m LSD for one observation per experimental unit. Also prepare a dummy ANOVA table for this.",
+                "10. Consider a completely randomized design with 4 treatments with 7 observations in each. For the ANOVA summary table below, fill in all the missing results. Also indicate your statistical decision.",
+                "9. Consider the partially completed ANOVA table table below. Complete the ANOVA table and answer the following.i) What design was employed?ii) How many treatments were compared?",
+                "12. Write short notes of the following :\u00a0\u00a0\u00a0\u00a0i) Need of non parametric statistical methods.\u00a0\u00a0\u00a0\u00a0\u00a0ii) Efficiency of Randomized Block Design relative to Completely Randomized Design."
+            ],
+            "Asked": [
+                "10 marks Asked in ModelQuestion",
+                "10 marks Asked in 2077",
+                "10 marks Asked in 2075",
+                "5 marks Asked in 2078",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2075"
+            ]
+        },
+        {
+            "Chapter": "Unit 6: Stochastic Process \n                                            \n\n                                                7 Questions",
+            "Question": [
+                "8. Define queuing systems with suitable examples. Also explain the main components of queuing systems in brief.",
+                "9. In some town, each day is either sunny or rainy. A sunny day is followed by another sunny day with probability 0.7, whereas a rainy day is followed by a sunny day with probability 0.4. Weather conditions in this problem represent a homogeneous Markov chain with 2 states: state 1 = \u201csunny\u201d and state 2 = \u201crainy.\u201d Transition probability matrix of sunny and rainy days is given below.\u00a0 \u00a0 \u00a0 \u00a0\u00a0Compute the probability of sunny days and rainy days using the steady-state equation for this Markov chain.",
+                "10. Define Markov chain and describe its characteristics.",
+                "11. Define Markov chain and introduce its basic notations. Also explain the characteristics of a Markov chain.",
+                "11. Every day is generally considered as either sunny or rainy. A sunny day is followed by another sunny day with probability 0.8 where as a rainy day is followed by a sunny day with probability 0.4. Suppose it rains on Monday. Make forecasts for Tuesday and Wednesday.",
+                "10. Define main component of queuing system.",
+                "11. Jobs are sent to mainframe computer at a rate of 4 jobs per minute. Arrivals are modeled by a binomial process.i) Choose a frame size that makes the probability of a new received during each frame equal to 0.1.ii) Using the chosen frame compute the probability of more than 4 jobs received during one minute.iii) Compute mean and variance of inter arrival time?"
+            ],
+            "Asked": [
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2078",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2075"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "subject": "ComputerHardwareDesign",
+    "questions": [
+        {
+            "Chapter": "Unit 1: Computer Abstractions and Technology \n                                            \n\n                                                12 Questions",
+            "Question": [
+                "1. Write MIPS assembly code for the following function where n corresponds to the argumentregister $a0? (10)int fact (int n){if (n < 1)return (1);elsereturn (n * fact(n \u2013 1));}",
+                "2. What are different pipelining hazards? Highlight on the techniques that can be implemented to reduce these hazards. (5+5)",
+                "3. Explain different associative structures for an eight-block cache. Assuming a cache of 4K blocks, a 4-word block size, and a 32bit address, find the total number of sets and the total number of tag bits for caches that are direct mapped, two-way and four-way set associative, and fully associative. (5+5)",
+                "4. A program runs in 20 seconds on computer A, which has a 2 GHz clock. We are trying to help a computer designer build a computer, B, which will run this program in 12 seconds. The designer has determined that a substantial increase in the clock rate is possible, but thisincrease will affect the rest of the CPU design, causing computer B to require 1.4 times as many clock cycles as computer A for this program. What clock rate should the designer target? (5)",
+                "5. Explain how TLB, virtual machine and cache can be integrated? (5)",
+                "6. Briefly explain different MIPS addressing modes. (5)",
+                "7. Explain x86 floating point architecture. (5)",
+                "8. What are different pipelining hazards and explain techniques to reduce them.(5)",
+                "9. How can FSM be implemented for a simple cache controller? (5)",
+                "10. Suppose we have a benchmark that executes in 150 seconds of elapsed time, of which 120seconds is CPU time and the rest is I/O time. Suppose the number of processors doublesevery two years, but the processors remain the same speed, and I/O time doesn\u2019t improve.Calculate the improvement in CPU performance. (5)a) After eight yearsb) In elapsed time",
+                "11. Explain different approaches of hardware multithreading. (5)",
+                "12. Write short notes on: (2 \u00d7 2.5 = 5)a. Roofline modelb. Power wall"
+            ],
+            "Asked": [
+                "5 marks Asked in ModelQuestion",
+                "10 marks Asked in ModelQuestion",
+                "10 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion"
+            ]
+        },
+        {
+            "Chapter": "Unit 2: Instructions: Language of the Computer \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 3: Arithmetic for Computers \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 4: The Processor \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 5: Large and Fast: Exploiting Memory Hierarchy \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 6: Storage and Other I/O Topics \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 7: Multicores, Multiprocessors, and Clusters \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        }
+    ]
+}
