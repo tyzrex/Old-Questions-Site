@@ -1,0 +1,157 @@
+{
+    "subject": "Physics",
+    "questions": [
+        {
+            "Chapter": "Unit 1: Rotational Dynamics and Oscillatory Motion \n                                            \n\n                                                28 Questions",
+            "Question": [
+                "1. What do you mean by the equilibrium current across the pn junction? Use Fermi-Dirac statistcs and Maxwell-Boltzmann distribution to show the flow of electrons from n to p is equal to the flow from p to n. How electron current from p to n (that is, associated with minority carriers) is not affected by the height of the potential energy barrier?Explain.[10]",
+                "2. Set up differential equation for an oscillation of a spring using Hooke's and Newton's second law. Find the general solution of this equation and hence the expression for period, velocity and acceleration of oscillation.[10]",
+                "2. Set up differential equation for an oscillation of a spring using Hooke's and Newton's second law. Find the general solution of this equation and hence the expressions for the period, velocity and oscillation of the acceleration.",
+                "3. Set up Schrodinger equation for Hydrogen atom using spherical polar coordinates and separate radial and angular part of this equation. Without solving radial and angular equations, discuss the quantum numbers associated with these.[10]",
+                "2) Describe moment of inertia and torque for a rotating rigid body. Find the expression for rotational kinetic and discuss the conditions for conservation. (10)",
+                "1. Explain RTL and TTL gates.How memory and clock circuits can be made by using these gates? Explain how they work?",
+                "2. Set up differential equation for an oscillation of a spring using Hooke's and Newton's second law. Find the general solution of this equation and hence the expressions for period, velocity and acceleration of oscillation.",
+                "3. Describe Frank-Hertz experiment. Interpret how the results of this experiment advocate atomic model proposed by Bohr?",
+                "4. Explain Hall effect and discuss the importance of Hall voltage while manufacturing electronic devices.[5]",
+                "5. What do you mean by Blotch theorem? Discuss its use in Kronig-Penny model and hence in band theory.",
+                "6. Describe the following process of IC production: (a) Oxidation, (b) Pattern definition , and (c) Doping.[5]",
+                "7. A given spring stretches 0.1 m when a force of 20 N pulls on it. A 2-kg block attached to it on a frictionless surface is pulled to the right 0.2m and released. (a)What is the frequency of oscillation of the block? (b) What is its velocity at the midpoint? (c) What is its acceleration at either end? (d) What are the velocity and acceleration when x = 0.12 m, on the block's first passing point?[5]",
+                "7. A large wheel of radius 0.4m and moment of inertia 1.2 kg-m2, pivoted at the center, is free to rotate without friction. A rope is wound around it and a 2-kg weight is attached to the rope. When the weight has descended 1.5m from its starting position (a) what is its downward velocity? (b)what is the rotational velocity of the wheel?",
+                "8. Two large parallel plates are separated by a distance of 5 cm. The plates have equal opposite charges that create an electric field in the region between plates. An a particle(q = 3.2x10-19C, m = 6.68x10-27kg) is released from the positively charged plate, and it strikes the negatively charged plate 2 x 10-6 sec later. Assuming that the electric field between the plates is uniform and perpendicular to the plates, what is the strength of the electric field?[5]",
+                "4. Discuss magnetic dipole moment.What is its effect on atom and on molecules? Explain.",
+                "9. What are (a) the energy, (b) the momentum, and (c) the wavelength of the photon that is emitted when a hydrogen atom undergoes a transition from the state n\u00a0=3 to n = 1?[5]",
+                "7) An oscillating block of mass 250 g takes 0.15 sec to move between the endpoints of motion, which are 40cm apart.a. What is the frequency of the motion?b. What is the amplitude of the motions?c. What is the forces constant of the spring? (5)",
+                "5. Describe the following process of IC production: (a) Oxidation, (b) Pattern definition, and (c) Doping",
+                "10. For a free quantum particle show that the wavefunction, \u03a8(x, t) = Acoskx e-iwt satisfies the time dependent Schrodinger equation.[5]",
+                "6. Explain the construction and bipolar junction transistor(BJT).",
+                "11. Copper has a face-centered cubic structure with a one-atom basis. The density of copper is 8.96 g/cm3 and its atomic weight is 63.5 g/mole. What is the length of the unit cube of the structure?[5]",
+                "7.A roulette wheel with moment of inertia I = 0.5 kgm2 rotating initially at 2 rev/sec coasts to a stop from the constant friction torque of bearing. If the torque of the bearing. If the torque is 0.4 Nm, how long does it take to stop?",
+                "12. The output of a digital circuit (y) is given by this expression:Where A,B and C represent inputs. Draw a circuit of above equation using OR, AND and NOT gate and hence find its truth table.[5]",
+                "8. Two large parallel plates are separated by a distance of 5 cm. The plates have equaled but opposite charges that create an electric field in the region between the plates. An\u00a0\u03b1\u00a0particles (q = 3.2x10-19C, m = 6.68x10-27 kg) is released from the positively charged plate, and strikes the negatively charged plate 2x10-6 sec. later. Assuming that the electric field between the plates is uniform and perpendicular to the plates, what is the strength of the electric field?",
+                "9. In neutron spectroscopy a beam of monoenergetic neutrons is obtained by reflecting reactor neutrons from a beryllium crystal. If the separation between the atomic planes of the beryllium crystal is 0.732\u00a0\u00c5\u00a0 , what is the angle between the\u00a0 incident neuton beam and the atomic planes that will yield a monochromatic beam of neutrons of wavelength of wavelength 0.1\u00a0\u00a0\u00c5?",
+                "10. What is probability of finding a particle in a well of width\u00a0\u03b1 at a position\u00a0\u03b1/4 from the wall if n=1, n=2, if n = 3. Use the normalized wavefunction\u00a0\u03a8(x,t) =\u00a0.",
+                "11. The energy gap is silicon is 1.1 eV, whereas in diamond it is 6eV. What conclusion can you draw about the transparency of the two materials to visible light(4000\u00a0\u00c5 to 7000\u00a0\u00c5)?",
+                "12. Find the truth table for the circuit shown in the figure. What logic function will the circuit perform if the constant +5 V input to the first two gates is changed to ground potential?"
+            ],
+            "Asked": [
+                "10 marks Asked in ModelQuestion",
+                "10 marks Asked in ModelQuestion",
+                "10 marks Asked in 2075",
+                "10 marks Asked in ModelQuestion",
+                "10 marks Asked in 2074",
+                "10 marks Asked in 2077",
+                "10 marks Asked in 2077",
+                "10 marks Asked in 2077",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2075",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2077",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2074",
+                "5 marks Asked in 2077",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2077",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2077",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2077"
+            ]
+        },
+        {
+            "Chapter": "Unit 2: Electric and Magnetic Field \n                                            \n\n                                                4 Questions",
+            "Question": [
+                "4. Discuss magnetic dipole moment. What is its effect on atom and on molecules? Explain.",
+                "4) Explain Hall Effect and discuss the impotence\u2019s of hall voltage while manufacturing electronic devices. (5)",
+                "8. An electron is placed midway between two fixed charges, q1 = 2.5 x 10-10 C\u00a0 and q2 = 5 x 10-10 C. If the charges are 1 m apart, what is the velocity of the electron when it reaches a point 10cm from a q2?",
+                "8) A current of 50A is established in a slab of copper 0.5cm thick and 2 cm wide .The slab is placed in a magnetic field B of 1.5 T. The magnetic field is perpendicular to the plane of the slab and to the current .The free electron concentration in copper is 8.4 \u00d7 1028\u00a0electrons/m3? . What will be the magnitude of the gall voltage across the width of the slab? (5)"
+            ],
+            "Asked": [
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2074",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2074"
+            ]
+        },
+        {
+            "Chapter": "Unit 3: Fundamentals of Atomic Theory \n                                            \n\n                                                4 Questions",
+            "Question": [
+                "3) Explain the theory of black body radiation .why this theory needs quantum mechanical interpretation? How this interpretation because experimentally successful ?Explain(10)",
+                "3. Describe Frank Hertz experiment. Discuss its result and outline limitations.",
+                "9) The uncertainty in the position of a particle is equal to the de Broglie wavelength of the particle Calculate the uncertainty in the velocity of the particle in term of the velocity of the de Broglie wave associated with the particle. (5)",
+                "10) a) How many atoms states are there in hydrogen with n=3?b) How are they distributed among the subshells? Label each state with the appropriates set of quantum numbers n, 1,m,mc) Show that the number of states in a shell, that is ,states having the same n. is given by 2n2\u00a0. (5)"
+            ],
+            "Asked": [
+                "10 marks Asked in 2074",
+                "10 marks Asked in 2075",
+                "5 marks Asked in 2074",
+                "5 marks Asked in 2074"
+            ]
+        },
+        {
+            "Chapter": "Unit 4: Methods of Quantum Mechanics \n                                            \n\n                                                2 Questions",
+            "Question": [
+                "9. A small particle of mass 10-6 gm moves along the x axis;\u00a0 its speed is uncertain 10-6 m/sec. (a) What is the uncertainity in the x coordinate of the particle? Repeat the calculation for an electron assuming that the uncertainity in its velocity is also 10-6 m/sec. Use the known value for\u00a0 electrons and Plank's constant.",
+                "10. What is the probability of finding a particle in a well of width a at a position a/4\u00a0from the wall if n = 1, if n = 2, if n = 3. Use the normalized wavefunction"
+            ],
+            "Asked": [
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2075"
+            ]
+        },
+        {
+            "Chapter": "Unit 5: Fundamentals of Solid State Physics \n                                            \n\n                                                3 Questions",
+            "Question": [
+                "5. Explain Blotch theorem? Discuss its use in Kronig-Penny model and hence in band theory.",
+                "11. Assuming that atoms in a crystal structure and arranged as closed-packed spheres, what is the ratio of the volume of the atoms to the volume available for the simple cubic structure? Assume a one-atom basis.",
+                "11) Copper has a face \u2013centered cubic structure with a one \u2013atom basis .The density of copper is 8.96 g/cm2 and its atomic weight is 63.5 g/mole. What is the length of the unit .cube of the structure? (5)"
+            ],
+            "Asked": [
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2074"
+            ]
+        },
+        {
+            "Chapter": "Unit 6: Semiconductor and Semiconductor devices \n                                            \n\n                                                4 Questions",
+            "Question": [
+                "1) Explain equilibrium current across the pn junction? Use Fermi-Dirac statistics and Maxwell Boltzmann distribution to show the flow n to p is equal to the flow from p to n .How electron current from p to n (that is , associated with minority carries) is not affected by the height of the potential energy barrier? Explain (10)",
+                "6. Explain the construction and working of bipolar junction transistor (BJT).",
+                "5) Discuss effective\u2019s mass of electrons and holes. (5)",
+                "6) Describes electrical conductivity of semiconductors. (5)"
+            ],
+            "Asked": [
+                "10 marks Asked in 2074",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2074",
+                "5 marks Asked in 2074"
+            ]
+        },
+        {
+            "Chapter": "Unit 7: Universal Gates and Physics of Integrated Circuits \n                                            \n\n                                                2 Questions",
+            "Question": [
+                "1. Explain the process of semiconductor purification by describing the terms Zone refining, single crystal growth, and scheme of IC production. Give an account of electronic component fabrication on a chip.",
+                "12. The output of a digital circuit (y) is given by this expression:\u00a0,where A,B and C represent inputs. Draw a circuit of above equation using OR, AND and NOT gate and hence find its truth table."
+            ],
+            "Asked": [
+                "10 marks Asked in 2075",
+                "5 marks Asked in 2075"
+            ]
+        },
+        {
+            "Chapter": "Unit 8: Old Syllabus \n                                            \n\n                                                1 Questions",
+            "Question": [
+                "2. It is given that the potential energy of a system is rotationally invariant. What do you mean by rotational invariance? Show that angular momentum is conserved for such a system. (3.5+3)"
+            ],
+            "Asked": [
+                "6.5 marks Asked in 2065"
+            ]
+        }
+    ]
+}

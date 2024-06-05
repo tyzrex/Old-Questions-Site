@@ -1,0 +1,61 @@
+{
+    "subject": "Applied Logic",
+    "questions": [
+        {
+            "Chapter": "Unit 1: Argument Analysis \n                                            \n\n                                                12 Questions",
+            "Question": [
+                "1. Arrange following arguments in standard order, write down their mood and figure, identify their validity by using Venn diagram and finally if the argument is invalid identify the syllogistic rule violated by the argument.a) All persons who plan ahead are people who live in the future, all persons who worry are people who live in the future, therefore all persons who plan ahead are persons who worry.b) Some self-actualized persons are not procrastinators because some procrastinators are lazy persons and no self-actualized persons are lazy persons",
+                "2. Translate the following arguments into symbolic form and then their formal proof of validity by using the suggested symbolsa) If Tarun or Neelam had come to college, the project will be finished, and the principle would have been pleased. Had the principle been pleased, all the teachers would have been commended. But all teachers were not commended. Therefore Tarun did not come to college. {T, N, F, P, C}b) No geese are felines. Some birds are geese. Therefore, some birds are not felines. {G, F, B}",
+                "3. What is casual reasoning? Explain mills methods of reasoning with suitable examples.",
+                "4. Discuss the need and procedure of paraphrasing a complex passage. And paraphrase the given passage: \u201cIf an action promotes the best interest of everyone concerned & violates no one\u2019s right, then that action is morally acceptable. In an act, at least some cases, active euthanasia promotes the best interest of everyone concerned and violates no one\u2019s right. Therefore, in at least some cases active euthanasia is morally acceptable.\u201d",
+                "5. When a term is said to be distributed or undisturbed? Describe distribution of terms with suitable examples.",
+                "6. Describe traditional square of oppositions with suitable examples.",
+                "7. Prove invalidity of the following argument:A\u00a0\u2283BC\u00a0\u2283DA\u00a0v\u00a0DB\u00a0v\u00a0C",
+                "8. What is fallacy? Identify the type of fallacy committed in the arguments given below with explanations.a. I believe in the Bible because it is the written word of God through his prophets. Obviously, God would not lie to his prophets. After all, the Bible says so.b. During the Gulf war many Americans made immense profits. That is an indisputable fact. Therefore, there can be no doubt that American business interests instigated the war.",
+                "9. Define categorical proposition and its quality and quantity with examples.",
+                "10. How can you express categorical propositions using quantifiers? Explain with examples.",
+                "11. How can you use analogy to claim validity and invalidity of inductive arguments? And what factors do you consider while evaluating analogical arguments? Describe briefly.",
+                "12. Translate the following sentences into standard categorical propositionsa) Whoever is a child is sillyb) All swans are not whitec) Nothing ventured, nothing gainedd) Brave people are people who deserve the fair aree) It is not uncommon for a musician to have perfect pitch"
+            ],
+            "Asked": [
+                "10 marks Asked in ModelQuestion",
+                "10 marks Asked in ModelQuestion",
+                "10 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion"
+            ]
+        },
+        {
+            "Chapter": "Unit 2: Categorical Propositions and Syllogisms \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 3: Symbolic Logic \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 4: Quantification Theory \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 5: Fallacies \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 6: Analogical and Casual Reasoning \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        }
+    ]
+}

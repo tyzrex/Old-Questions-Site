@@ -1,0 +1,71 @@
+{
+    "subject": "Multimedia Computing",
+    "questions": [
+        {
+            "Chapter": "Unit 1: Introduction to Computers \n                                            \n\n                                                12 Questions",
+            "Question": [
+                "1. Explain the global structure of multimedia with block diagram and explain each block in detail.",
+                "2. List and explain the various colour models used in image and\u00a0 videos.",
+                "3. Why do we need Huffman coding? Explain it with suitable example.",
+                "4. Explain the speech generation method.",
+                "5. How can you generate animation using computer?",
+                "6. Differentiate between JPEG and MPEG.",
+                "7. Discuss in brief about user interface design process in multimedia.",
+                "8. Explain the abstraction levels of the programming of object-oriented approach.",
+                "9. Discuss the colour dithering technique with example.",
+                "10. Calculate the file size in bytes for a 30 second recording at 44.1 khz, 8 bits resolution stereo sound.",
+                "11. Differentiate between lossless and lossy compression.",
+                "12. Explain the applications of multimedia in telemedicine."
+            ],
+            "Asked": [
+                "10 marks Asked in 2076",
+                "10 marks Asked in 2076",
+                "10 marks Asked in 2076",
+                "5 marks Asked in 2076",
+                "5 marks Asked in 2076",
+                "5 marks Asked in 2076",
+                "5 marks Asked in 2076",
+                "5 marks Asked in 2076",
+                "5 marks Asked in 2076",
+                "5 marks Asked in 2076",
+                "5 marks Asked in 2076",
+                "5 marks Asked in 2076"
+            ]
+        },
+        {
+            "Chapter": "Unit 2: Sound Audio System \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 3: Images and Graphics \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 4: Video and Animation \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 5: Data Compression \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 6: User Interfaces \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 7: Abstractions for programming \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 8: Multimedia Application \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        }
+    ]
+}

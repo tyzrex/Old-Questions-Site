@@ -1,0 +1,74 @@
+{
+    "subject": "Distributed and Object Oriented Database",
+    "questions": [
+        {
+            "Chapter": "Unit 1: Introduction to Distributed Database,Distributed Database Architectures,Distributed Database Design \n                                            \n\n                                                26 Questions",
+            "Question": [
+                "1. What is data fragmentation? Explain horizontal, vertical, and mixed fragmentation with suitable example.",
+                "1. Discuss client/server architecture and peer-to-peer architecture of distributed DBMS.",
+                "2. Discuss query decomposition in distributed databases. How is it different from query localization?",
+                "2. What is reliability protocol? Discuss two phase commit protocol for distributed environment.",
+                "3. Explain different characteristics of object oriented data model. What is extended relational model approach for object oriented database management system?",
+                "3. What is object-oriented database? Differentiate it with relational database . Discuss the characteristics of object oriented data model.",
+                "4. Define client/server architecture. What is distributed multidatabase system architecture?",
+                "5. Discuss different design issues that arise in building a distributed DBMS.",
+                "4. Differentiate between distributed database with centralized database.",
+                "6. Discuss semijoin operation. Compare it with join operation.",
+                "5. Discuss MDBS architecture.",
+                "7. Define transaction. Discuss architectural aspects of distributed transaction.",
+                "6. What are the correctness rules of fragmentation? Discuss.",
+                "8. What are different types of failures in distributed database management systems? Explain.",
+                "7. Discuss normalization step of query decomposition.",
+                "8. Discuss three situations that can occur if proper isolation is not maintained.",
+                "9. Why do we need concurrency control? Discuss distributed two phase locking technique.",
+                "10. What is object definition language? How is it different from object query language?",
+                "9. What is deadlock? Discuss deadlock prevention in distributed concurrency control.",
+                "11. What are the performance issues related with object oriented database management systems?",
+                "10. Explain mean time between failures and mean time to repair.",
+                "11. What is object query language? Differentiate it with structured query language.",
+                "12. Discuss the performance issues of OODBMS.",
+                "12. What are the performance issues related with object oriented database management systems?",
+                "13. Write short notes on:a) Autonomyb) CORBA",
+                "13. Write short notes on:a) Object identityb) CORBA"
+            ],
+            "Asked": [
+                "10 marks Asked in 2075",
+                "10 marks Asked in 2071",
+                "10 marks Asked in 2075",
+                "10 marks Asked in 2071",
+                "10 marks Asked in 2075",
+                "10 marks Asked in 2071",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2071",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2071",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2071",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2071",
+                "5 marks Asked in 2071",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2071",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2071",
+                "5 marks Asked in 2071",
+                "5 marks Asked in 2071",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2071",
+                "5 marks Asked in 2075"
+            ]
+        },
+        {
+            "Chapter": "Unit 2: Distributed Query Processing,Distributed Transaction Management, Distributed Concurrency Control,Reliability of Distributed DBMS and Recovery \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 3: Object Oriented Database Concept, OODBMS Architecture Approach,The Object Oriented DBMS Architecture \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        }
+    ]
+}

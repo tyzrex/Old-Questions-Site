@@ -1,0 +1,110 @@
+{
+    "subject": "NET Centric Computing",
+    "questions": [
+        {
+            "Chapter": "Unit 1: Language Preliminaries \n                                            \n\n                                                18 Questions",
+            "Question": [
+                "1. Differentiate between struct and enum. Why do we need to handle the exception? Illustrate with an example with your own customized exception.[2+8]",
+                "1. Describe the MVC pattern. Create class to showcase constructor, properties, indexers and encapsulation behavior of object oriented language.",
+                "2. Explain the procedure for building, running and deploying .NET core applications. Write a program to show the possibility of SQL injection attack.[5+5]",
+                "3. What are the advantages of stateless HTTP in ASP.NET core application? Create a method to insert a record (3, \"John , 12000\") onto the table Employee having fields EmployeeId(int), Name varchar(200), Salary(int) using Entity Framework.[4+6]",
+                "3. How does the system manage state in stateless HTTP? Design a page to show client side validation for login page using jquery or angular or react.",
+                "4. Define open redirect attacks. Discuss about docker and containerization.[2+3]",
+                "6. Describe the process of adding authentication to apps and identify service configurations.",
+                "5. What is named and positional attribute parameters? Describe the .Net architecture design and principles.[2+3]",
+                "7. Differentiate between abstract class, sealed class and interface. What is the task of Object Relational Mapper?",
+                "6. Explain about request and response message format with example.[5]",
+                "7. Why do we need to validate the form? How can you use react for this?[2+3]",
+                "8. Define data model and data context.What does URL routing mean?[2+3]",
+                "9. Why do we need generics? What are the significances of MSIL?",
+                "9. Give an example to manage the session state.[5]",
+                "10. How can you prevent SQL injection attack? Explain with an example.[5]",
+                "12. Write short notes on (Any TWO)\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0a. Single page application\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0b. Hidden fields\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0c. Await patterns",
+                "11. Explain the process to deploy the core application.[5]",
+                "12. Write short notes on (any two)[2*2.5=5]a. LINQb. Open Redirect Attacksc. Query string"
+            ],
+            "Asked": [
+                "10 marks Asked in 2078",
+                "10 marks Asked in ModelQuestion",
+                "10 marks Asked in 2078",
+                "10 marks Asked in 2078",
+                "10 marks Asked in ModelQuestion",
+                "5 marks Asked in 2078",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2078",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2078",
+                "5 marks Asked in 2078",
+                "5 marks Asked in 2078",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2078",
+                "5 marks Asked in 2078",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2078",
+                "5 marks Asked in 2078"
+            ]
+        },
+        {
+            "Chapter": "Unit 2: Introduction to ASP.NET \n                                            \n\n                                                2 Questions",
+            "Question": [
+                "2. Explain the architecture and design principles of .NET. Create methods to insert, update, delete and read all data for the table Student having following fields StudentId(int), Name varchar(200), RollNo (int), Class varchar(50) using Entity Framework.",
+                "8. Explain the process of compiling and executing .NET application."
+            ],
+            "Asked": [
+                "10 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion"
+            ]
+        },
+        {
+            "Chapter": "Unit 3: HTTP and ASP.NET Core \n                                            \n\n                                                1 Questions",
+            "Question": [
+                "10. Express the format of request and response message format. What is the role of adapter class in database connection?"
+            ],
+            "Asked": [
+                "5 marks Asked in ModelQuestion"
+            ]
+        },
+        {
+            "Chapter": "Unit 4: Creating ASP.NET core MVC applications \n                                            \n\n                                                1 Questions",
+            "Question": [
+                "11. How do you render HTML with views? Explain."
+            ],
+            "Asked": [
+                "5 marks Asked in ModelQuestion"
+            ]
+        },
+        {
+            "Chapter": "Unit 5: Working with Database \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 6: State Management on ASP.NET Core Application \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 7: Client-side Development in ASP.NET Core \n                                            \n\n                                                0 Questions",
+            "Question": [],
+            "Asked": []
+        },
+        {
+            "Chapter": "Unit 8: Securing in ASP.NET Core Application \n                                            \n\n                                                1 Questions",
+            "Question": [
+                "4. Write an application showing sql injection vulnerability and prevention using ado.net."
+            ],
+            "Asked": [
+                "5 marks Asked in ModelQuestion"
+            ]
+        },
+        {
+            "Chapter": "Unit 9: Hosting and Deploying ASP.NET Core Application \n                                            \n\n                                                1 Questions",
+            "Question": [
+                "5. How do you host and deploy the ASP.NET core application."
+            ],
+            "Asked": [
+                "5 marks Asked in ModelQuestion"
+            ]
+        }
+    ]
+}

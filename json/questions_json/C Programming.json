@@ -1,0 +1,318 @@
+{
+    "subject": "C Programming",
+    "questions": [
+        {
+            "Chapter": "Unit 1: Problem Solving with Computer \n                                            \n\n                                                35 Questions",
+            "Question": [
+                "1. Draw a flow chart and write an algorithm to find out whether a given number is zero or +ve or -ve.",
+                "1. Discuss structure of a C Program with suitable example.",
+                "1. Draw the flowchart for the solution of a quadratic equation and write an algorithm and explain it.",
+                "1. Write an algorithm and flow chart to determine whether a given integer is odd or even and explain it.",
+                "1) Write an algorithm and flowchart to find out whether a given integer is zero, +ve or \u2013ve and explain it.",
+                "1. What is logical error? Write flowchart and program for checking whether the number entered by the user is exactly divisible by 5 or by 11. [1+5]ORWhat is algorithm? Write an algorithm to check given number is prime or composite. [1+5]",
+                "1. Explain the structure of C-Program with example.",
+                "1. Draw a flow chart and write an algorithm to find a number is divisible by either 5 or 7? (6)",
+                "1. Why flow chart is required? Explain different symbols used in the flow chart and explain with suitable example.",
+                "1. What do you mean by looping? Explain while loop with suitable example. Compare while loop with do while loop. Write a program to find sum and average of first n natural numbers.[1+3+2+4]",
+                "1. Define function and list its advantages. Describe the difference between passing arguments by value and passing arguments by address with suitable program.[4 + 6]",
+                "2. What are the benefits of using arrays? Compare one dimensional array with two dimensional array. Write a program to find transpose of a matrix.[2+2+6]",
+                "3. What is structure? How is it different from union? Create a structure named course with name,code and credit_hour as its member. Write a program using this structure using this structure to read data of 5courses and display data of those courses with credit_hour grater than 3.[1+2+7]",
+                "2. Explain how structure is different from union? Make a program using structure of booklist having data member's title, author, and cost. Enter four data and calculate total cost.[3 + 4 + 3]",
+                "4. What is algorithm? How is it different from flow chart?",
+                "3. Explain various modes in which file can be opened? Write a program to CREATE and WRITE N numbers in a file \"NUMBER.TXT\" . Open this file then read its content and put all even numbers in one file \"EVEN.TXT\" and odd numbers in another file\"ODD.TXT\". [2+4+4]",
+                "4. Explain flowchart with example. What are the benefits of using flowchart?[3+2]",
+                "5. What is data type? Why do we need it in programming? Explain any three basic data types with example.(1+1+3)",
+                "8. What is preprocessor directive? Discuss # define directive with example.",
+                "6. What do you mean by unformatted I/O? Explain.[5]",
+                "4. What do you mean by a problem analysis? What are the properties of a good algorithm? Explain the Compilation and Execution of any C program?[1+1+3]",
+                "5. Define nested if else statement with suitable flowchart. Write a C code to check if user given input is exactly divisible by 5 or 11 using nested if else statement?[2+3]",
+                "7. Write a program to display first in prime numbers.[5]",
+                "6. List various binary and unary operators used in C? Write a program that uses \"while\"loop to compute and prints the sum of a given numbers of squares. For example, if 4 is input, then the program will print 30, which is equal to 12+22+32+42 [1+4]",
+                "8. Write a program to find product of two integers using your own function.[5]",
+                "9. Define pointer. How do you return pointers from functions? Explain with example.[1+4]",
+                "7. \"Size of character array is always declared one more that the input size.\" Justify the statement. Write a program to read a character array in input as \"TRIBHUVAN UNIVERSITY\" from the user and find out how many times a character \"I\" occurs in that array?[1+4]",
+                "8. Write syntax to declare and initialize 2-dimensional array? With suitable program logic explain how would u find transpose of a 3*3 matrix.[1+4]",
+                "10. Explain different file\u00a0 I/O functions with example.[5]",
+                "9. Explain the concept of recursive function using the example program to find the factorial of given positive integer.[5]",
+                "11. Write a program to draw a circle using graphics function.[5]",
+                "12. Write short notes on:[2x2.5=5]a. Compilation and executionb. Operator precedence and associativity",
+                "10. Describe the fundamental concept of pointer and its arithmetic with suitable examples.[5]",
+                "11. Explain the use of graphical functions. Write a program to draw a triangle using line() graphics function.[1+4]",
+                "12. Write short notes on:[2+3]i) Dynamic Memory Allocationii) break and continue"
+            ],
+            "Asked": [
+                "6 marks Asked in 2073",
+                "10 marks Asked in 2074",
+                "6 marks Asked in 2067",
+                "6 marks Asked in 2068",
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2070",
+                "6 marks Asked in 2071",
+                "6 marks Asked in 2072",
+                "6 marks Asked in 2066",
+                "10 marks Asked in 2077",
+                "10 marks Asked in ModelQuestion",
+                "10 marks Asked in 2077",
+                "10 marks Asked in 2077",
+                "10 marks Asked in ModelQuestion",
+                "5 marks Asked in 2074",
+                "10 marks Asked in ModelQuestion",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2077",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2077",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2077",
+                "10 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2077",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in 2077",
+                "5 marks Asked in 2077",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion",
+                "5 marks Asked in ModelQuestion"
+            ]
+        },
+        {
+            "Chapter": "Unit 2: Elements of C \n                                            \n\n                                                8 Questions",
+            "Question": [
+                "2. How can you declare the variable in C? Explain with example.",
+                "2) What are the basic four data types used in C programming? What are its size and range? Explain.",
+                "2. Find the value of \u201ca\u201d in each of the following statements:Int i = 2, j = 5, k = 7Float a = 1.5, b = 2.5, c = 3.5(a) a = c \u2013 i / j + c / k;(b) a = (c \u2013 i) / k + (j + b) / j;(c) a = b * b \u2013 ((i+j) / c);(d) a = b \u2013 k + j / k + i * c;(e) a = c + k % 2 + b;(f) a = (b + 4) % (c + 2);",
+                "2. What do u mean by statement? Expalin the different types of statement with example.",
+                "3. Find the error in the given program and explain it. Write the correct program.#include<stdio.h>include<math.h>main{float p, r, n;printf(\u201cPlease enter a value for the principle (P):\u201d);scanf(\u201c%f\u201d, &p);printf(\u201cPlease enter a value for the interest rate (R)\u201d);scanf(\u201c%f\u201d, &r);printf(\u201cPlease enter a value for the number of years (n):\u201d):scanf(\u201c%f\u201d, n);f = p * pow + r/100),n);printf(\\\\n The final value (F) is: %. 2f\\\\n\u201d, f);",
+                "3. A machine is purchased which will produce earning of Rs. 20000 per year while it lasts. The machine costs Rs. 120000 and will have a salvage value of Rs. 20000 when it is condemned. If the 12 percent per annum can be earned on alternative investments, what should be the minimum life of the machine to make it a more attractive investment compared to alternative investments?",
+                "3. Describe the four basic data types with example.",
+                "5. What is type conversion? Discuss type casting with suitable example."
+            ],
+            "Asked": [
+                "6 marks Asked in 2068",
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2067",
+                "6 marks Asked in 2071",
+                "6 marks Asked in 2066",
+                "6 marks Asked in 2067",
+                "6 marks Asked in 2073",
+                "5 marks Asked in 2074"
+            ]
+        },
+        {
+            "Chapter": "Unit 3: Input and Output \n                                            \n\n                                                2 Questions",
+            "Question": [
+                "7. Write a program that computes the sum of digits of a given integer number.",
+                "10) What are the three types of input/output functions which support in C-programming? Explain with example.ORWrite short notes on:a.) Delimiters\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0b.) Graphics function"
+            ],
+            "Asked": [
+                "5 marks Asked in 2074",
+                "6 marks Asked in 2069"
+            ]
+        },
+        {
+            "Chapter": "Unit 4: Operators and Expression \n                                            \n\n                                                6 Questions",
+            "Question": [
+                "2. What are the different types of operators available in C?Explain.",
+                "2. What is operator? List any six operators used in C-programming language. Write a program to find least number between any two numbers using ternary operator. [1+2+3]",
+                "2.Discuss logical operators along with the truth table. Write a program using switch statement to display EXCELLENT, VERY GOOD, GOOD, SATISFACTORY, or F AIL if the user enters A, B, C,D,E respectively. (3+3)",
+                "3. Explain the relational operator and Increment/decrement operator with example.",
+                "4. Discuss different logical operators in detail.",
+                "6. Discuss increment and decrement operators with example."
+            ],
+            "Asked": [
+                "6 marks Asked in 2073",
+                "6 marks Asked in 2070",
+                "6 marks Asked in 2072",
+                "6 marks Asked in 2071",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2074"
+            ]
+        },
+        {
+            "Chapter": "Unit 5: Control Statement \n                                            \n\n                                                15 Questions",
+            "Question": [
+                "1. What is looping statement? Discuss different looping statements with suitable example of each. (2+8)",
+                "2. Discuss different types of if statements with example of each. Differentiate if statement with switch statement.",
+                "3) Explain the \u201cif.......else\u201d statement with example.",
+                "3. What do you mean by entry-controlled and exit-controlled loop? Write a program to print the following output.(2+4)1011010101      10101",
+                "4. Write a program that uses a \u201cwhile\u201d loop to compute and prints the sum of a given numbers of squares. For example, if 4 is input, then the program will print 30, which is equal to 12+22+32+42",
+                "4. What are the four types of control statement use in C programming? Explain",
+                "4) Differentiate between break and exit statement with example.",
+                "4. Differentiate between while and do while loop with example.",
+                "4. Differentiate break statement with continue statement. What is the output if the following program ?(2+4)#include<stdio.h> #include<conio.h> #include<math.h>void main(){\u00a0\u00a0\u00a0\u00a0int x=2, n=5, sum=0, i; clrscr();\u00a0\u00a0\u00a0\u00a0for(i=1; i<=n; i++)\u00a0\u00a0\u00a0\u00a0{ \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0If(i%2==0)\u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0sum==sum-pow(x,i); \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0else\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0sum=sum+pow(x,1);\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0}\u00a0\u00a0\u00a0\u00a0Printf(\u201csum=%d\u201d,sum); Getch();}",
+                "4. Difference between if and switch statement. Write a program to read the marks of four subjects then find total, percentage and division according to given condition. [1+5]Percentage\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 Divisionp \u2265 80\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0Distinction80 > p \u2265 70\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0First division70 > p \u2265 50\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0Second division50 > p \u2265 40\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0Third divisionOtherwise Fail.Assume each subjects carrying 100 full marks and students must secure greater or equal to 40 in each subjects for division.",
+                "4. Explain switch statement with example.",
+                "5. Write a program that uses a do...while loop to compute and prints the sum of squares given n numbers.",
+                "5. Differentiate between break and continue statement. Write a program to display following output.\u00a0 [2+4]11 11 1 11 1 1 11 1 1 1 1",
+                "5. What is break statement? Discuss with example. How the break statement is different from continue statement?",
+                "6. Write a program to check whether a number entered is even or odd."
+            ],
+            "Asked": [
+                "10 marks Asked in 2075",
+                "10 marks Asked in 2074",
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2072",
+                "6 marks Asked in 2066",
+                "6 marks Asked in 2071",
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2073",
+                "6 marks Asked in 2072",
+                "6 marks Asked in 2070",
+                "6 marks Asked in 2068",
+                "6 marks Asked in 2067",
+                "6 marks Asked in 2070",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2075"
+            ]
+        },
+        {
+            "Chapter": "Unit 6: Arrays \n                                            \n\n                                                12 Questions",
+            "Question": [
+                "2. Define array? What are the benefits of using array? Write a program to add two matrices using array. (1+2+7)",
+                "4. Write a program to transpose the following matrix.\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u22123\u00a0 \u00a07\u00a0 \u00a0 5\u00a0 \u00a0 \u00a0 -2\u00a0 \u00a08\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a02\u00a0 \u00a0 5\u00a0 \u00a0 8\u00a0 \u00a0 \u00a0 \u00a03\u00a0 \u00a0 -4\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u22126\u00a0 \u00a09\u00a0 \u00a0 3\u00a0 \u00a0 \u00a0 \u00a06\u00a0 \u00a0 \u00a05",
+                "5. Write a program to check whether the diagonal elements of a (4*4) matrix are all Zero.",
+                "5. Write a program to enter two 3x3 matrices and calculate the product of given matrices.",
+                "5. Write a program to find the largest and smallest among the given elements in an array.",
+                "5) Explain the multidimensional array with example. Write a program to convert a lowercase character string into uppercase.",
+                "6. Explain the use of two dimensional arrays. Illustrate it with suitable program and explain it.",
+                "6. Write a program to input any 10 numbers then find out greatest and smallest number. [6]",
+                "6. What is array? Write a program to find the sum of each row of 3*2 matrix.",
+                "7. Write a program to add two 3\u00d73 matrix using function. [6]",
+                "7. Write a program to calculate sum of first 10 odd numbers.",
+                "9. Write a program to find sum and average of 10 integer numbers stored in an array."
+            ],
+            "Asked": [
+                "10 marks Asked in 2075",
+                "6 marks Asked in 2067",
+                "6 marks Asked in 2073",
+                "6 marks Asked in 2066",
+                "6 marks Asked in 2068",
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2066",
+                "6 marks Asked in 2070",
+                "6 marks Asked in 2072",
+                "6 marks Asked in 2070",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2074"
+            ]
+        },
+        {
+            "Chapter": "Unit 7: Functions \n                                            \n\n                                                11 Questions",
+            "Question": [
+                "5. Explain pass by value and pass by reference with suitable example of each. (6)",
+                "5.Explain the functions and its types use in C programming with example.",
+                "6) Explain the library functions with example.",
+                "6. Explain the user-defined functions and its types with example.",
+                "6.Write a program to accept 10 number and print the sum of these numbers through function.",
+                "7. Write and test the following power () function that returns x raised to the power n, where n can be any integer:\u00a0double power (double x, int p)",
+                "8. What is recursion? Write a program to find the factorial of given number using recursion. [2+4]ORWhat is pointer? Write a program to sort 'n' numbers in ascending order using dynamic memory. [2+4]",
+                "8. Differentiate between call by value and call by reference with example.",
+                "8. What is function? Discuss the benefits of using function.",
+                "9. Write a program to accept any number and print the sum of that number up to a single digit through recursive function.",
+                "9. Discuss any five string library functions."
+            ],
+            "Asked": [
+                "6 marks Asked in 2072",
+                "6 marks Asked in 2071",
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2068",
+                "6 marks Asked in 2071",
+                "6 marks Asked in 2066",
+                "6 marks Asked in 2070",
+                "6 marks Asked in 2073",
+                "5 marks Asked in 2074",
+                "6 marks Asked in 2068",
+                "5 marks Asked in 2075"
+            ]
+        },
+        {
+            "Chapter": "Unit 8: Structure and Union \n                                            \n\n                                                9 Questions",
+            "Question": [
+                "3. What is structure? How is it different from array? Create a structure student having data members name, roll-number and percentage. Complete the program to display the name of student having percentage greater than or equal to 60.",
+                "8. Explain the passing structure to function with example.",
+                "9) Explain the array of structures and write a program to accept record of 15 person which has name, age and address and also display them.",
+                "9. Why structure is required? Make a program using structure of booklist having data member\u2019s title, author, and cost. Enter four data and calculate total cost.",
+                "9. Define a structure of student having data members, name, address, marks in C language, and marks in information system. Take data for n students in an array dynamically and find the total marks obtained.",
+                "9. What is structure? How is it different from array and Union? Discuss",
+                "10. Write short notes on:\u00a0 a) Documentation\u00a0 b) Structure",
+                "10. Explain the passing structure to function with example.ORWrite short notes on:a. Graphics function\u00a0 \u00a0 \u00a0 \u00a0b. Formatted I/O",
+                "11. What is structure? Create a structure rectangle with data members length and breadth."
+            ],
+            "Asked": [
+                "10 marks Asked in 2074",
+                "6 marks Asked in 2068",
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2066",
+                "6 marks Asked in 2067",
+                "6 marks Asked in 2073",
+                "6 marks Asked in 2072",
+                "6 marks Asked in 2071",
+                "5 marks Asked in 2075"
+            ]
+        },
+        {
+            "Chapter": "Unit 9: Pointers \n                                            \n\n                                                13 Questions",
+            "Question": [
+                "6. What is the function of a pointer variable? Explain the declaring and initializing pointers with example.",
+                "7. What is dynamic memory allocation? Write a program to find sum and average of n numbers entered from the keyboard using dynamic memory allocation to create array to store these n numbers.(2+4)",
+                "7. Explain the use of pointer in c programming. How can your declare the pointer? Explain with example.",
+                "7. Write a program to accept two numbers and sort them with using pointer.",
+                "7. Write a program using pointers to read in an array of integers and print its elements in reverse order.",
+                "7) Write a program to find the sum of all the elements of an array using pointers.",
+                "8. Justify the pointer is jewel of C language. Write a function that is passed an array of pointers to floats and returns a newly created array that contains those n float values in reverse order. Assume any necessary data.ORExplain pointer with suitable diagram. Write a function that uses pointers to search for the address of a given integer in a given array. If the given integer is found, the function returns its address; otherwise it returns NULL.",
+                "8. Why pointer is called jewel of C language? Write a program that uses pointers to copy an array of integer.ORExplain the importance of pointer. Write a function that is passed an array of pointers to floats and returns a newly created array that contains those n float values.",
+                "8) Explain the pointer arithmetic with example.",
+                "8. Write a program to accept 10 numbers and show them with using pointer.",
+                "10. Explain the pointer to structure with example.ORWrite short notes on:a) Dynamic memory allocation b) Opening and Closing file",
+                "10. What is dynamic memory allocation? Discuss the use of malloc() in dynamic memory allocation with example.",
+                "10. Define pointer. Discuss the relationship between pointer and one-dimensional array."
+            ],
+            "Asked": [
+                "6 marks Asked in 2073",
+                "6 marks Asked in 2072",
+                "6 marks Asked in 2071",
+                "6 marks Asked in 2068",
+                "6 marks Asked in 2073",
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2066",
+                "6 marks Asked in 2067",
+                "6 marks Asked in 2069",
+                "6 marks Asked in 2071",
+                "6 marks Asked in 2068",
+                "5 marks Asked in 2075",
+                "5 marks Asked in 2074"
+            ]
+        },
+        {
+            "Chapter": "Unit 10: File Handling in C \n                                            \n\n                                                2 Questions",
+            "Question": [
+                "3. Why do we need data files? What are the different file opening modes? Write a program that reads data from a file \"input.txt\" and writes to \"output.txt\" file.",
+                "11. Write a program to read and print data stored in a file input.txt."
+            ],
+            "Asked": [
+                "10 marks Asked in 2075",
+                "5 marks Asked in 2074"
+            ]
+        },
+        {
+            "Chapter": "Unit 11: Introduction to Graphics \n                                            \n\n                                                5 Questions",
+            "Question": [
+                "9. Discuss with example any five graphics function used in c-programming. (6)",
+                "10. Define the graphics function. Write a program to draw a circle using graphics function.",
+                "10. Create a text file and enter \u201cto write a good program is very time consuming job\u201d. Create another text which contains reverse of above text.OR\u00a0Explain the use of graphical function. Make a program that contains basic graphic functions.",
+                "12. Why do we need graphics functions? Write a program to draw a circle.",
+                "12. Write short notes on:(a) Benefits of data files\u00a0(b) Graphics functions."
+            ],
+            "Asked": [
+                "6 marks Asked in 2072",
+                "6 marks Asked in 2073",
+                "6 marks Asked in 2066",
+                "5 marks Asked in 2074",
+                "5 marks Asked in 2075"
+            ]
+        }
+    ]
+}
