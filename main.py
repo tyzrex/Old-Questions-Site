@@ -13,7 +13,7 @@ def home():
 @app.route("/unitwisequestions/<subject>")
 def get_unitwise_questions(subject):
     print(subject)
-    with open(f"json/questions_json/{subject}.json") as file:
+    with open(f"questions_json/{subject.replace(" ",'')}.json") as file:
         questions_data = json.load(file)
     return jsonify(questions_data)
 
