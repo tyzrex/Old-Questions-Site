@@ -4,6 +4,7 @@ import requests
 from simple_term_menu import TerminalMenu
 from tqdm import tqdm
 import json
+import os
 
 
 class WebScraper:
@@ -18,30 +19,47 @@ class WebScraper:
             return None
 
         data_soup = soup(data_html.text, "html.parser")
-        card = data_soup.find_all("div", class_="card")
+        card = data_soup.find_all("div", class_="card uwq-card")
 
-        for question in card:
-            questions = question.find_all("div", class_="col-10")
-            asked = question.find_all("div", class_="col-2")
-            buttons = question.find("button", class_="btn btn-link")
+        for chapters in card:
+            chapter_name = chapters.find("div", class_="uwq-unit-display")
+            questions = chapters.find_all("div", class_="question-text")
+            asked = chapters.find_all("div", class_="uwq-question-stat")
+
+            cleaned_asked = []
+            for a in asked:
+                # Remove unwanted characters and formatting
+                cleaned_a = a.text.strip().replace('\n', '').replace("|", '').replace("Toggle Answer", "")
+                # Extract only the numerical values for marks and the year
+                marks_index = cleaned_a.find('marks')
+                marks = cleaned_a[:marks_index]
+                year_index = cleaned_a.find('Asked in') + len('Asked in')
+                year = cleaned_a[year_index:]
+                cleaned_asked.append((marks, year))
+
+
             results.append(
                 {
-                    "Chapter": buttons.text,
-                    "Question": [q.text for q in questions],
-                    "Asked": [a.text for a in asked],
+                    "Chapter": chapter_name.text.strip(),
+                    "Question": [q.text.strip() for q in questions],
+                    "Asked": [a.text.strip().replace('\n', '').replace("|", '').replace("Toggle Answer", "").replace(" ", '').replace("marks", " marks ").replace("Askedin", "Asked in ") for a in asked]
                 }
             )
 
         return results
 
-    def write_json_file(self, data, selected_subject):
+    def write_json_file(self, data, selected_subject, directory):
+        os.makedirs(directory, exist_ok=True)
         json_data = {"subject": selected_subject, "questions": []}
         for data in tqdm(data, desc="Writing questions", unit="question"):
             json_data["questions"].append(data)
 
         json_str = json.dumps(json_data, indent=4)
 
-        with open(f"{selected_subject}.json", "w") as file:
+        # with open(f"{selected_subject}.json", "w") as file:
+        #     file.write(json_str)
+        # Write the JSON file to the directory
+        with open(os.path.join(directory, f"{selected_subject}.json"), "w") as file:
             file.write(json_str)
 
     def get_all_questions_hamrocsit(self, url):
@@ -102,22 +120,42 @@ class WebScraper:
             return url, site, selected_subject
 
         else:
-            subjects = {
-                "Design and analysis of algorithms": "pastpapers/unit-wise-questions/TU/CSIT/design-and-analysis-of-algorithms/4",
-                "Cryptography": "pastpapers/unit-wise-questions/TU/CSIT/cryptography/6",
-                "Simulation and Modeling": "pastpapers/unit-wise-questions/TU/CSIT/simulation-and-modelling/7",
-                "Multimedia Computing": "pastpapers/unit-wise-questions/TU/CSIT/multimedia-computing/9",
-                "Sytem Analysis and design": "pastpapers/unit-wise-questions/TU/CSIT/system-analysis-and-design/5",
-                "Web Tech": "pastpapers/unit-wise-questions/TU/CSIT/web-technology/8",
-            }
+            # all_subjects = "https://www.collegenote.net/csit-1/courses"
+            # data_html = requests.get(all_subjects)
+            # data_soup = soup(data_html.text, "html.parser")
+            # all_subs = data_soup.find_all("li", class_="m-1")
+            # subject_url = {}
+            # for subject in all_subs:
+            #     subject_url[subject.a.text.strip().split("\n")[0]]= subject.a["href"].split("/").pop().strip()
+
+            # json_str = json.dumps(subject_url, indent=4)
+            # with open("subjects.json", "w") as file:
+            #     file.write(json_str)
+
+            # Read the subjects from the JSON file
+            with open("subjects.json", "r") as file:
+                subject_url = json.load(file)
+
+
+            # for selected_subject in subject_url.keys():
+            #     print(selected_subject)
+            #     subject_url_str = subject_url[selected_subject]  # Use a different variable here
+            #     print("Scraping questions for", selected_subject)
+            #     url = f"https://www.collegenote.net/old-question/{subject_url_str}/unit-wise-questions"
+            #     print(url)
+            #     batches = self.get_all_questions_collegenote(url)
+            #     folder_path = "questions_json/"  # Replace with the desired folder path
+            #     self.write_json_file(batches, selected_subject, folder_path)
 
             # Display the menu and get user's choice
-            terminal_menu = TerminalMenu(list(subjects.keys()))
-            selected_subject = list(subjects.keys())[terminal_menu.show()]
+            terminal_menu = TerminalMenu(list(subject_url.keys()))
+            selected_subject = list(subject_url.keys())[terminal_menu.show()]
 
+
+            subject_url = subject_url[selected_subject] 
+            print(subject_url)
             # Get the selected subject's URL
-            selected_url = subjects[selected_subject]
-            url = f"https://www.collegenote.net/{selected_url}"
+            url = f"https://www.collegenote.net/old-question/{subject_url}/unit-wise-questions"
             return url, site, selected_subject
 
     def scrape_questions(self):
@@ -131,7 +169,7 @@ class WebScraper:
 
         else:
             batches = self.get_all_questions_collegenote(url)
-            self.write_json_file(batches, selected_subject)
+            self.write_json_file(batches, selected_subject, 'questions_json/')
             return selected_subject
 
 
